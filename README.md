@@ -70,3 +70,20 @@ Region search suggestions (Chinese/English/Japanese aliases) focus and select a 
 Kurokawa village core and Yunotsubo street have hand-curated approximate orientation footprints, citing official maps for context. They are NOT surveyed boundaries, not official landscape-plan areas, not routed walks and have no calculated walking times. Place hover/click shows their footprints; hiding the place hides the footprint.
 
 Popup overlap controls detect connected intersections of 42×54 pixel pin footprints at the current zoom. Up to 12 pins spread around a circle with leaders to their unchanged geographic coordinates; larger groups first zoom closer. Expanded pin popups follow displayed offsets. Map movement/resizing/filter changes collapse the arrangement; list selection stays available.
+
+
+## GitHub Pages deployment
+
+Repository: https://github.com/Gigi123680/Trip-Planner
+Site: https://gigi123680.github.io/Trip-Planner/
+
+The Pages source is GitHub Actions. Every push to `main` installs the locked npm
+dependencies, type-checks and builds the app, uploads `dist`, then deploys it to
+the `github-pages` environment. A failed build does not replace the deployed site.
+The workflow can also be started manually from Actions.
+
+Vite uses a relative base (`./`), so generated assets and JSON loads work under
+the repository subdirectory. Pages serves the static frontend over HTTPS; React
+and MapLibre run in the visitor's browser. Map tiles still come from OpenFreeMap.
+No local PC, WSL process, database or private API is needed for this prototype.
+Shared voting is not implemented yet.
