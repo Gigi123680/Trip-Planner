@@ -1,0 +1,2102 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Tokyo",
+  "defaultLanguage": "zh",
+  "regions": [
+    {
+      "id": "yufuin",
+      "name": {
+        "zh": "由布院",
+        "en": "Yufuin"
+      },
+      "parentRegionId": null,
+      "notes": [
+        {
+          "id": "yufuin-food",
+          "type": "food",
+          "title": {
+            "zh": "探索乳制甜点、布丁、当地牛肉、香橙及酒类，不为泛指店铺设点。",
+            "en": "Explore dairy sweets, pudding, local beef, kabosu citrus, sake and barley shochu without pinning generic vendors."
+          },
+          "text": {
+            "zh": "探索乳制甜点、布丁、当地牛肉、香橙及酒类，不为泛指店铺设点。",
+            "en": "Explore dairy sweets, pudding, local beef, kabosu citrus, sake and barley shochu without pinning generic vendors."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "yufuin-cycling",
+          "type": "activity",
+          "title": {
+            "zh": null,
+            "en": "Countryside cycling is an idea to represent later, not a scheduled activity."
+          },
+          "text": {
+            "zh": null,
+            "en": "Countryside cycling is an idea to represent later, not a scheduled activity."
+          },
+          "preference": "maybe",
+          "origin": "user",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "yufuin-private-onsen",
+          "type": "activity",
+          "title": {
+            "zh": null,
+            "en": "Use the private outdoor onsen at the accommodation; communal nude bathing is less appealing."
+          },
+          "text": {
+            "zh": null,
+            "en": "Use the private outdoor onsen at the accommodation; communal nude bathing is less appealing."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [
+            "yufu-no-kaze"
+          ],
+          "links": []
+        },
+        {
+          "id": "yufuin-lake-shidaka-exclusion",
+          "type": "general",
+          "title": {
+            "zh": null,
+            "en": "Lake Shidaka was discussed but user chose not to list it."
+          },
+          "text": {
+            "zh": null,
+            "en": "Lake Shidaka was discussed but user chose not to list it."
+          },
+          "preference": "skip",
+          "origin": "user",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "yufuin-beppu-base",
+          "type": "transport",
+          "title": {
+            "zh": null,
+            "en": "Stay in Yufuin and visit Beppu as a day trip."
+          },
+          "text": {
+            "zh": null,
+            "en": "Stay in Yufuin and visit Beppu as a day trip."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [],
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "beppu-area",
+      "name": {
+        "zh": "别府周边（含日出町）",
+        "en": "Beppu area (including Hiji)"
+      },
+      "parentRegionId": null,
+      "notes": [
+        {
+          "id": "beppu-food",
+          "type": "food",
+          "title": {
+            "zh": null,
+            "en": "Try toriten, ryukyu marinated sashimi, sekiaji/sekisaba, dangojiru, kabosu and barley shochu."
+          },
+          "text": {
+            "zh": null,
+            "en": "Try toriten, ryukyu marinated sashimi, sekiaji/sekisaba, dangojiru, kabosu and barley shochu."
+          },
+          "preference": "likely",
+          "origin": "assistant",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "beppu-seafood-cooking",
+          "type": "food",
+          "title": {
+            "zh": null,
+            "en": "Explore fish markets and potentially buy seafood to cook at the Yufuin house."
+          },
+          "text": {
+            "zh": null,
+            "en": "Explore fish markets and potentially buy seafood to cook at the Yufuin house."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [
+            "oga-fishing-port-market",
+            "beppu-station-market"
+          ],
+          "links": []
+        },
+        {
+          "id": "beppu-day-trip",
+          "type": "transport",
+          "title": {
+            "zh": null,
+            "en": "Beppu is a day trip from the Yufuin accommodation."
+          },
+          "text": {
+            "zh": null,
+            "en": "Beppu is a day trip from the Yufuin accommodation."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "beppu-daylight",
+          "type": "timing",
+          "title": {
+            "zh": null,
+            "en": "Prioritize ropeway and outdoor attractions during short December daylight."
+          },
+          "text": {
+            "zh": null,
+            "en": "Prioritize ropeway and outdoor attractions during short December daylight."
+          },
+          "preference": "likely",
+          "origin": "assistant",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "beppu-bathing",
+          "type": "general",
+          "title": {
+            "zh": null,
+            "en": "Public nude bathing is a barrier; private options preferred."
+          },
+          "text": {
+            "zh": null,
+            "en": "Public nude bathing is a barrier; private options preferred."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "beppu-sand-bamboo",
+          "type": "activity",
+          "title": {
+            "zh": null,
+            "en": "Sand bathing and bamboo craft workshops were discussed without selecting a specific venue."
+          },
+          "text": {
+            "zh": null,
+            "en": "Sand bathing and bamboo craft workshops were discussed without selecting a specific venue."
+          },
+          "preference": "maybe",
+          "origin": "assistant",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "beppu-steam-cooking",
+          "type": "food",
+          "title": {
+            "zh": null,
+            "en": "Geothermal steam cooking was considered somewhat gimmicky and not a food priority."
+          },
+          "text": {
+            "zh": null,
+            "en": "Geothermal steam cooking was considered somewhat gimmicky and not a food priority."
+          },
+          "preference": "probably_skip",
+          "origin": "user",
+          "relatedPlaceIds": [
+            "jigoku-mushi-kobo-kannawa"
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "kurokawa",
+      "name": {
+        "zh": "黑川温泉",
+        "en": "Kurokawa Onsen"
+      },
+      "parentRegionId": null,
+      "notes": [
+        {
+          "id": "kurokawa-free-exploration",
+          "type": "activity",
+          "title": {
+            "zh": null,
+            "en": "Explore the village streets, riverside, cafés and snack shops freely without rigid meeting times."
+          },
+          "text": {
+            "zh": null,
+            "en": "Explore the village streets, riverside, cafés and snack shops freely without rigid meeting times."
+          },
+          "preference": "must_visit",
+          "origin": "user",
+          "relatedPlaceIds": [
+            "kurokawa-village-center"
+          ],
+          "links": []
+        },
+        {
+          "id": "kurokawa-ryokan-meals",
+          "type": "food",
+          "title": {
+            "zh": null,
+            "en": "Prefer reasonably priced centrally located lodging with family dinner and breakfast, without needing luxury bath facilities."
+          },
+          "text": {
+            "zh": null,
+            "en": "Prefer reasonably priced centrally located lodging with family dinner and breakfast, without needing luxury bath facilities."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "kurokawa-pass",
+          "type": "activity",
+          "title": {
+            "zh": null,
+            "en": "Nyuto Tegata pass was previously discussed at ¥1,500 per adult for three baths or two baths plus a participating redemption; individual admission may be preferable for one bath. Historical information, not reverified."
+          },
+          "text": {
+            "zh": null,
+            "en": "Nyuto Tegata pass was previously discussed at ¥1,500 per adult for three baths or two baths plus a participating redemption; individual admission may be preferable for one bath. Historical information, not reverified."
+          },
+          "preference": "maybe",
+          "origin": "assistant",
+          "relatedPlaceIds": [
+            "yamamizuki-outdoor-bath",
+            "sanga-outdoor-bath",
+            "kounoyu-outdoor-bath"
+          ],
+          "links": []
+        },
+        {
+          "id": "kurokawa-scenic-bath",
+          "type": "activity",
+          "title": {
+            "zh": null,
+            "en": "Interested in one forest or mountainside outdoor bath; communal nudity is a constraint, and pass baths are not private."
+          },
+          "text": {
+            "zh": null,
+            "en": "Interested in one forest or mountainside outdoor bath; communal nudity is a constraint, and pass baths are not private."
+          },
+          "preference": "maybe",
+          "origin": "user",
+          "relatedPlaceIds": [
+            "yamamizuki-outdoor-bath",
+            "sanga-outdoor-bath",
+            "kounoyu-outdoor-bath"
+          ],
+          "links": []
+        },
+        {
+          "id": "kurokawa-daylight",
+          "type": "timing",
+          "title": {
+            "zh": null,
+            "en": "Arrive from Yufuin before midday and use daylight for outdoor sights and baths; departure timing must leave room for Aso."
+          },
+          "text": {
+            "zh": null,
+            "en": "Arrive from Yufuin before midday and use daylight for outdoor sights and baths; departure timing must leave room for Aso."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "kurokawa-waterfalls",
+          "type": "activity",
+          "title": {
+            "zh": null,
+            "en": "Waterfalls are optional detours, possibly on departure; may cut Aso time if chosen."
+          },
+          "text": {
+            "zh": null,
+            "en": "Waterfalls are optional detours, possibly on departure; may cut Aso time if chosen."
+          },
+          "preference": "maybe",
+          "origin": "user",
+          "relatedPlaceIds": [
+            "nabegataki",
+            "meotodaki"
+          ],
+          "links": []
+        },
+        {
+          "id": "kurokawa-late-food",
+          "type": "food",
+          "title": {
+            "zh": null,
+            "en": "Snack browsing is better during shop hours; evening dining choices may be limited."
+          },
+          "text": {
+            "zh": null,
+            "en": "Snack browsing is better during shop hours; evening dining choices may be limited."
+          },
+          "preference": "likely",
+          "origin": "assistant",
+          "relatedPlaceIds": [],
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "aso",
+      "name": {
+        "zh": "阿苏",
+        "en": "Aso"
+      },
+      "parentRegionId": null,
+      "notes": [
+        {
+          "id": "aso-scenic-drive",
+          "type": "activity",
+          "title": {
+            "zh": "火山景观自驾",
+            "en": "Scenic volcanic drive"
+          },
+          "text": {
+            "zh": "此前讨论从黑川温泉经阿苏前往熊本，沿途欣赏火山地貌。",
+            "en": "Previously discussed driving from Kurokawa through Aso toward Kumamoto to experience the volcanic landscape."
+          },
+          "preference": "likely",
+          "origin": "user",
+          "relatedPlaceIds": [
+            "daikanbo",
+            "kusasenrigahama"
+          ],
+          "links": []
+        },
+        {
+          "id": "aso-akagyu",
+          "type": "food",
+          "title": {
+            "zh": "阿苏赤牛丼",
+            "en": "Aso akagyu beef rice bowl"
+          },
+          "text": {
+            "zh": "曾讨论在阿苏一带尝试赤牛丼；尚未指定餐厅。",
+            "en": "Try akagyu-don (local red-beef rice bowl) around Aso; no specific restaurant selected."
+          },
+          "preference": "maybe",
+          "origin": "assistant",
+          "relatedPlaceIds": [
+            "kusasenrigahama"
+          ],
+          "links": []
+        },
+        {
+          "id": "aso-daylight",
+          "type": "timing",
+          "title": {
+            "zh": "冬季日照较短",
+            "en": "Limited December daylight"
+          },
+          "text": {
+            "zh": "十二月日落约下午五点；如果从黑川午后出发，游览大观峰与草千里会比较赶。",
+            "en": "December sunset is around 5 p.m.; leaving Kurokawa after lunch compresses time for both Daikanbo and Kusasenri."
+          },
+          "preference": "likely",
+          "origin": "assistant",
+          "relatedPlaceIds": [
+            "daikanbo",
+            "kusasenrigahama"
+          ],
+          "links": []
+        },
+        {
+          "id": "aso-road-conditions",
+          "type": "transport",
+          "title": {
+            "zh": "高地道路结冰风险",
+            "en": "Potential icy highland roads"
+          },
+          "text": {
+            "zh": "十二月高海拔道路可能结冰，租车及行程安排需要考虑冬季路况。",
+            "en": "Highland roads may be icy in December; account for winter road conditions and rental-car equipment."
+          },
+          "preference": "likely",
+          "origin": "assistant",
+          "relatedPlaceIds": [],
+          "links": []
+        },
+        {
+          "id": "aso-crater-access",
+          "type": "general",
+          "title": {
+            "zh": "中岳火口开放限制",
+            "en": "Nakadake crater access restrictions"
+          },
+          "text": {
+            "zh": "中岳火口可能因火山警戒、火山气体及天气限制进入；出行前需核实。",
+            "en": "Crater access can be restricted by volcanic alerts, gas and weather; recheck before visiting."
+          },
+          "preference": "likely",
+          "origin": "assistant",
+          "relatedPlaceIds": [
+            "nakadake-crater"
+          ],
+          "links": [
+            "https://www.aso-volcano.jp/eng/html/access.html"
+          ]
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "yufu-no-kaze",
+      "category": "accommodation",
+      "subcategories": [
+        "house",
+        "private_onsen"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "由布之风",
+        "en": "Yufu no Kaze"
+      },
+      "nameJa": "由布の風",
+      "description": {
+        "zh": null,
+        "en": "Standalone Airbnb with courtyard, BBQ, private outdoor natural hot spring and paid sunken hearth."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": "1212-20 Yufuinchō Kawakami, Yufu, Oita 879-5102, Japan",
+        "precision": "unknown",
+        "pointRepresents": "provided accommodation street address",
+        "sourceUrl": null
+      },
+      "links": [
+        {
+          "type": "accommodation",
+          "url": "https://www.airbnb.ca/rooms/41565766?unique_share_id=fe53562c-1729-4757-b02e-5e0d9b27fa56&viralityEntryPoint=1&s=76",
+          "label": "Original Airbnb listing"
+        }
+      ],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 4109.32,
+        "currency": "CNY",
+        "basis": "Historical total for three nights, five guests, Dec 7–10, 2026",
+        "asOfDate": null,
+        "notes": "Observed price; taxes and fees inclusion unconfirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": "41565766",
+        "maxGuests": 10,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "private outdoor natural onsen",
+          "courtyard",
+          "BBQ",
+          "kitchen",
+          "parking",
+          "paid irori / sunken hearth"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Strong accommodation candidate for Dec 7–10, five guests; not confirmed booked."
+        }
+      ]
+    },
+    {
+      "id": "lake-kinrin",
+      "category": "poi",
+      "subcategories": [
+        "lake",
+        "shrine"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "金鳞湖",
+        "en": "Lake Kinrin"
+      },
+      "nameJa": "金鱗湖",
+      "description": {
+        "zh": null,
+        "en": "Early morning mist, lakeside walking and torii/shrine, all one pin."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "must_visit",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 45
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Must visit early morning; possibly a short run."
+        }
+      ]
+    },
+    {
+      "id": "yunotsubo-kaido",
+      "category": "poi",
+      "subcategories": [
+        "shopping_street",
+        "food"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "汤之坪街道",
+        "en": "Yunotsubo Kaido"
+      },
+      "nameJa": "湯の坪街道",
+      "description": {
+        "zh": null,
+        "en": "Street with vendors, sweets, cafés and craft shops."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "must_visit",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 120
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Browse casually and forage snacks."
+        }
+      ]
+    },
+    {
+      "id": "sagiridai",
+      "category": "poi",
+      "subcategories": [
+        "viewpoint"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "狭雾台",
+        "en": "Sagiridai Viewpoint"
+      },
+      "nameJa": "狭霧台",
+      "description": {
+        "zh": null,
+        "en": "Viewpoint over the Yufuin basin, possibly misty in the morning."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 15,
+        "max": 30
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Looks interesting; keep as optional."
+        }
+      ]
+    },
+    {
+      "id": "tsukahara-onsen",
+      "category": "poi",
+      "subcategories": [
+        "onsen"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "塚原温泉",
+        "en": "Tsukahara Onsen"
+      },
+      "nameJa": "塚原温泉",
+      "description": {
+        "zh": null,
+        "en": "Rustic strongly acidic mineral spring."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 120
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Very interested, but communal nude bathing is a concern."
+        }
+      ]
+    },
+    {
+      "id": "mount-yufu",
+      "category": "poi",
+      "subcategories": [
+        "mountain"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "由布岳",
+        "en": "Mount Yufu"
+      },
+      "nameJa": "由布岳",
+      "description": {
+        "zh": null,
+        "en": "Prominent mountain landmark; summit hike discussed but unlikely in winter."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "probably_skip",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep generic map POI, probably not hiking."
+        }
+      ]
+    },
+    {
+      "id": "umi-jigoku",
+      "category": "poi",
+      "subcategories": [
+        "geothermal"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "海地狱",
+        "en": "Umi Jigoku"
+      },
+      "nameJa": "海地獄",
+      "description": {
+        "zh": null,
+        "en": "Only one of the Seven Hells seriously considered; full circuit not appealing."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 45
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ]
+    },
+    {
+      "id": "beppu-ropeway",
+      "category": "poi",
+      "subcategories": [
+        "ropeway",
+        "mountain"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "别府缆车",
+        "en": "Beppu Ropeway"
+      },
+      "nameJa": "別府ロープウェイ",
+      "description": {
+        "zh": null,
+        "en": "Mount Tsurumi panorama and possible winter rime; mountain represented in same pin."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 90,
+        "max": 150
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ]
+    },
+    {
+      "id": "kannawa-onsen",
+      "category": "poi",
+      "subcategories": [
+        "neighborhood",
+        "geothermal"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "铁轮温泉",
+        "en": "Kannawa Onsen neighborhood"
+      },
+      "nameJa": "鉄輪温泉",
+      "description": {
+        "zh": null,
+        "en": "Steaming lanes, traditional buildings and walking."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 45,
+        "max": 90
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ]
+    },
+    {
+      "id": "kannawa-mushiyu",
+      "category": "poi",
+      "subcategories": [
+        "steam_bath"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "铁轮蒸汽浴",
+        "en": "Kannawa Mushiyu"
+      },
+      "nameJa": "鉄輪むし湯",
+      "description": {
+        "zh": null,
+        "en": "Herbal steam bath facility, separate from neighborhood."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 45,
+        "max": 75
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ]
+    },
+    {
+      "id": "myoban-onsen",
+      "category": "poi",
+      "subcategories": [
+        "onsen_district",
+        "geothermal"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "明矾温泉",
+        "en": "Myoban Onsen"
+      },
+      "nameJa": "明礬温泉",
+      "description": {
+        "zh": null,
+        "en": "Yunohana mineral-bath-salt huts and volcanic scenery; visiting need not include bathing."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ]
+    },
+    {
+      "id": "jigoku-mushi-kobo-kannawa",
+      "category": "poi",
+      "subcategories": [
+        "steam_cooking"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "地狱蒸工房 铁轮",
+        "en": "Jigoku Mushi Kobo Kannawa"
+      },
+      "nameJa": "地獄蒸し工房 鉄輪",
+      "description": {
+        "zh": null,
+        "en": "Geothermal steam cooking; user skeptical."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "probably_skip",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ]
+    },
+    {
+      "id": "oga-fishing-port-market",
+      "category": "poi",
+      "subcategories": [
+        "fish_market"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "大神渔港早市",
+        "en": "Oga Fishing Port Morning Market"
+      },
+      "nameJa": "大神漁港朝市",
+      "description": {
+        "zh": null,
+        "en": "Fish purchasing, potentially fish-cleaning services; identity also referred to as 大神漁港魚市場."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": "Previously discussed approximate 7–8 a.m. morning window; operating days and actual hours unverified.",
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        },
+        {
+          "origin": "user",
+          "text": "Treat 大神漁港魚市場 and 大神漁港朝市 as one location; regionId remains beppu-area although geographically in Hiji."
+        }
+      ]
+    },
+    {
+      "id": "beppu-station-market",
+      "category": "poi",
+      "subcategories": [
+        "market"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "别府站市场",
+        "en": "Beppu Station Market"
+      },
+      "nameJa": "べっぷ駅市場",
+      "description": {
+        "zh": null,
+        "en": "Everyday market for browsing and purchasing food; individual shop hours unknown."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": "Vendor-specific hours not established.",
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ]
+    },
+    {
+      "id": "kurokawa-village-center",
+      "category": "poi",
+      "subcategories": [
+        "village",
+        "shopping_street",
+        "riverside"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "黑川温泉街",
+        "en": "Kurokawa Onsen village center"
+      },
+      "nameJa": "黒川温泉街",
+      "description": {
+        "zh": null,
+        "en": "Main streets Igonzaka (いご坂), Shimokawabata-dori (下川端通り), river, bridges, snacks and small shops."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "must_visit",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 180
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Explore thoroughly and independently with no strict schedule."
+        }
+      ]
+    },
+    {
+      "id": "yamamizuki-outdoor-bath",
+      "category": "poi",
+      "subcategories": [
+        "outdoor_onsen"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "山水木露天温泉",
+        "en": "Yamamizuki outdoor bath"
+      },
+      "nameJa": "山みず木",
+      "description": {
+        "zh": null,
+        "en": "Forested mountain stream outdoor bath, outside central village."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": 600,
+        "currency": "JPY",
+        "basis": "Historical approximate individual adult day-use admission",
+        "asOfDate": null,
+        "notes": "Previously discussed estimate, not verified for travel dates."
+      },
+      "openingHoursNotes": "Day-use bathing previously discussed as generally ending around 3 p.m.; verify.",
+      "accessNotes": "Standard bath pass is for communal gender-separated baths, not private family baths.",
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Interested in scenic wilderness bath; family may prefer private facilities."
+        }
+      ]
+    },
+    {
+      "id": "sanga-outdoor-bath",
+      "category": "poi",
+      "subcategories": [
+        "outdoor_onsen"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "山河露天温泉",
+        "en": "Sanga outdoor bath"
+      },
+      "nameJa": "山河",
+      "description": {
+        "zh": null,
+        "en": "Secluded wooded valley outdoor bath outside the village center."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": "Standard bath pass is for communal gender-separated baths, not private family baths.",
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Interested in scenic wilderness bath; family may prefer private facilities."
+        }
+      ]
+    },
+    {
+      "id": "kounoyu-outdoor-bath",
+      "category": "poi",
+      "subcategories": [
+        "outdoor_onsen"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "Kounoyu露天温泉",
+        "en": "Kounoyu outdoor bath"
+      },
+      "nameJa": "こうの湯",
+      "description": {
+        "zh": null,
+        "en": "Deep standing bath and mountain scenery, nearer village."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": 700,
+        "currency": "JPY",
+        "basis": "Historical approximate individual adult day-use admission",
+        "asOfDate": null,
+        "notes": "Previously discussed estimate, not verified for travel dates."
+      },
+      "openingHoursNotes": "Longer day-use evening hours discussed as possible, unverified.",
+      "accessNotes": "Standard bath pass is for communal gender-separated baths, not private family baths.",
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Interested in scenic wilderness bath; family may prefer private facilities."
+        }
+      ]
+    },
+    {
+      "id": "yamabiko-ryokan",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "山彦旅馆",
+        "en": "Yamabiko Ryokan"
+      },
+      "nameJa": "やまびこ旅館",
+      "description": {
+        "zh": null,
+        "en": "Riverside, good-value option."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 17000,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ]
+    },
+    {
+      "id": "ryokan-nanjoen",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "南城苑旅馆",
+        "en": "Ryokan Nanjoen"
+      },
+      "nameJa": "南城苑",
+      "description": {
+        "zh": null,
+        "en": "Central and convenient for walking."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 19000,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ]
+    },
+    {
+      "id": "ryokan-yumotoso",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "汤本庄旅馆",
+        "en": "Ryokan Yumotoso"
+      },
+      "nameJa": "湯本荘",
+      "description": {
+        "zh": null,
+        "en": "Central traditional atmosphere."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 20000,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ]
+    },
+    {
+      "id": "ikoi-ryokan",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "憩旅馆",
+        "en": "Ikoi Ryokan"
+      },
+      "nameJa": "いこい旅館",
+      "description": {
+        "zh": null,
+        "en": "Central, with many baths."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 21500,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ]
+    },
+    {
+      "id": "ryokan-wakaba",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "若叶旅馆",
+        "en": "Ryokan Wakaba"
+      },
+      "nameJa": "旅館わかば",
+      "description": {
+        "zh": null,
+        "en": "Comfortable but less economical."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 23100,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ]
+    },
+    {
+      "id": "oyado-noshiyu",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "Noshiyu旅馆",
+        "en": "Oyado Noshiyu"
+      },
+      "nameJa": "お宿 のし湯",
+      "description": {
+        "zh": null,
+        "en": "Wooded atmosphere, higher price."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 24000,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ]
+    },
+    {
+      "id": "nabegataki",
+      "category": "poi",
+      "subcategories": [
+        "waterfall"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "锅瀑布",
+        "en": "Nabegataki Waterfall"
+      },
+      "nameJa": "鍋ヶ滝",
+      "description": {
+        "zh": null,
+        "en": "Broad curtain waterfall with a path behind it; access or reservation may be constrained."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 45
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Optional, not mandatory; could visit on departure and reduce Aso time."
+        }
+      ]
+    },
+    {
+      "id": "meotodaki",
+      "category": "poi",
+      "subcategories": [
+        "waterfall"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "夫妇瀑布",
+        "en": "Meotodaki Waterfall"
+      },
+      "nameJa": "夫婦滝",
+      "description": {
+        "zh": null,
+        "en": "Twin waterfalls meeting in a ravine; shorter optional excursion."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 20,
+        "max": 30
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Optional, not mandatory; could visit on departure and reduce Aso time."
+        }
+      ]
+    },
+    {
+      "id": "hiranodai-viewpoint",
+      "category": "poi",
+      "subcategories": [
+        "viewpoint"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "平野台高原展望台",
+        "en": "Hiranodai Viewpoint"
+      },
+      "nameJa": "平野台高原展望所",
+      "description": {
+        "zh": null,
+        "en": "Highland viewpoint over Aso countryside, also called Lovers Hill; walking route previously discussed."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep on map for later pruning; not yet selected."
+        },
+        {
+          "origin": "assistant",
+          "text": "Earlier suggested as a walking excursion, potentially around three hours on foot; car visit could be shorter."
+        }
+      ]
+    },
+    {
+      "id": "daikanbo",
+      "category": "poi",
+      "subcategories": [
+        "viewpoint",
+        "caldera"
+      ],
+      "regionId": "aso",
+      "name": {
+        "zh": "大观峰",
+        "en": "Daikanbo"
+      },
+      "nameJa": "大観峰",
+      "description": {
+        "zh": null,
+        "en": "Panoramic viewpoint on the northern rim of the Aso caldera, with a short walk from parking."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as one of the three Aso POIs; likely stop on the Kurokawa-to-Kumamoto route."
+        },
+        {
+          "origin": "assistant",
+          "text": "Complements Kusasenri by showing the overall scale of the caldera."
+        }
+      ]
+    },
+    {
+      "id": "kusasenrigahama",
+      "category": "poi",
+      "subcategories": [
+        "grassland",
+        "volcanic_landscape"
+      ],
+      "regionId": "aso",
+      "name": {
+        "zh": "草千里之滨",
+        "en": "Kusasenrigahama"
+      },
+      "nameJa": "草千里ヶ浜",
+      "description": {
+        "zh": null,
+        "en": "Expansive grassland with ponds and views toward the central volcano; short walks, museum, cafes and dining nearby."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 120
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as one of the three Aso POIs; likely stop."
+        },
+        {
+          "origin": "assistant",
+          "text": "Complementary to Daikanbo: experience the volcanic highlands from within the landscape."
+        }
+      ]
+    },
+    {
+      "id": "nakadake-crater",
+      "category": "poi",
+      "subcategories": [
+        "volcanic_crater"
+      ],
+      "regionId": "aso",
+      "name": {
+        "zh": "中岳火口",
+        "en": "Nakadake Crater"
+      },
+      "nameJa": "中岳火口",
+      "description": {
+        "zh": null,
+        "en": "Active volcanic crater with possible steam vents and crater-lake views when accessible."
+      },
+      "location": {
+        "longitude": null,
+        "latitude": null,
+        "address": null,
+        "precision": "unknown",
+        "pointRepresents": null,
+        "sourceUrl": null
+      },
+      "links": [
+        {
+          "type": "official",
+          "url": "https://www.aso-volcano.jp/eng/html/access.html",
+          "label": "Official crater access information"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": "Check official access restrictions before visiting; access is not guaranteed.",
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as a third Aso POI, conditional rather than mandatory."
+        },
+        {
+          "origin": "assistant",
+          "text": "Access depends on volcanic activity, gas, weather and official restrictions; previously discussed closure must not be assumed current."
+        }
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "id": "kyushu-trip",
+      "name": {
+        "zh": "九州旅行",
+        "en": "Kyushu trip"
+      },
+      "startDate": null,
+      "endDate": null,
+      "travelerCount": null,
+      "transportMode": "rental_car",
+      "notes": [
+        "Family group discussed as approximately five to seven; exact party size unconfirmed.",
+        "Yufuin base for Beppu day trip; one-night Kurokawa stay tentatively follows Yufuin checkout.",
+        "Dates for entire Kyushu trip and specific sightseeing stops are not finalized."
+      ],
+      "days": [],
+      "stays": [
+        {
+          "id": "yufuin-stay-option-1",
+          "placeId": "yufu-no-kaze",
+          "status": "candidate",
+          "checkInDate": "2026-12-07",
+          "checkOutDate": "2026-12-10",
+          "guestCount": 5,
+          "quotedTotal": {
+            "amount": 4109.32,
+            "currency": "CNY",
+            "includesTaxesAndFees": null,
+            "asOfDate": null
+          },
+          "notes": [
+            "Historical Airbnb quote; no booking confirmed."
+          ]
+        },
+        {
+          "id": "kurokawa-stay-unselected",
+          "placeId": null,
+          "status": "candidate",
+          "checkInDate": "2026-12-10",
+          "checkOutDate": "2026-12-11",
+          "guestCount": null,
+          "quotedTotal": {
+            "amount": null,
+            "currency": null,
+            "includesTaxesAndFees": null,
+            "asOfDate": null
+          },
+          "notes": [
+            "One-night stay discussed; specific ryokan not chosen."
+          ]
+        }
+      ]
+    }
+  ],
+  "unresolvedQuestions": [
+    "No exact geographic coordinates previously established for any POI; geocoding required later.",
+    "Opening days and hours for Oga Fishing Port Morning Market and Beppu Station Market remain unverified.",
+    "Oga Fishing Port Market (大神漁港魚市場) and morning market (大神漁港朝市) treated as aliases for planning, not independently verified.",
+    "Kurokawa bath day-use opening times, private-bath options, and availability for travel dates require confirmation.",
+    "Accommodation room capacities, room counts, meal plans, and live rates for Kurokawa ryokans not established.",
+    "Specific Kurokawa ryokan and final traveler count not chosen.",
+    "No individual sightseeing stop has been assigned to a confirmed itinerary day.",
+    "Lake Kinrin torii is included in Lake Kinrin, not a separate pin.",
+    "Lake Shidaka explicitly excluded from mapped places.",
+    "Aso and Amakusa locations will be added in subsequent region passes; not part of Kurokawa.",
+    "Original map URLs for these POIs were not preserved; no links have been invented.",
+    "Aso POI coordinates and exact street addresses were not previously established; no coordinates added."
+  ]
+}

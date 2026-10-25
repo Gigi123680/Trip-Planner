@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "places": [
+    {
+      "id": "mount-aso",
+      "category": "poi",
+      "name": {
+        "zh": "阿苏山（中岳）",
+        "en": "Mount Aso (Nakadake)"
+      },
+      "coordinates": {
+        "longitude": 131.096944,
+        "latitude": 32.883611
+      },
+      "description": {
+        "zh": "占位说明：这里将显示景点介绍、照片与旅行笔记。当前标记为中岳山体参考位置，并非停车场或火山口观景台。",
+        "en": "Placeholder: place details, photos and travel notes will go here. This marker identifies Nakadake, not a car park or crater viewpoint."
+      },
+      "source": {
+        "label": "Japan Meteorological Agency",
+        "url": "https://www.data.jma.go.jp/vois/data/filing/souran_eng/volcanoes/084_asosan.pdf",
+        "coordinateNote": "JMA Nakadake reference: 32°53′01″N, 131°05′49″E."
+      }
+    },
+    {
+      "id": "yufu-no-kaze",
+      "category": "accommodation",
+      "subcategories": [
+        "house",
+        "private_onsen"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "由布之风",
+        "en": "Yufu no Kaze"
+      },
+      "nameJa": "由布の風",
+      "description": {
+        "zh": "独栋住宿候选，带私人露天温泉。此处为官方网站地图所示的大致位置，尚未核实入口。",
+        "en": "Standalone Airbnb with courtyard, BBQ, private outdoor natural hot spring and paid sunken hearth."
+      },
+      "location": {
+        "longitude": 131.365193,
+        "latitude": 33.274488,
+        "address": "1212-20 Yufuinchō Kawakami, Yufu, Oita 879-5102, Japan",
+        "precision": "approximate",
+        "pointRepresents": "Official accommodation map view centre; approximate property vicinity, not a verified entrance.",
+        "sourceUrl": "https://yuhunokazaya.com/en/info/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "accommodation",
+          "url": "https://www.airbnb.ca/rooms/41565766?unique_share_id=fe53562c-1729-4757-b02e-5e0d9b27fa56&viralityEntryPoint=1&s=76",
+          "label": "Original Airbnb listing"
+        }
+      ],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 4109.32,
+        "currency": "CNY",
+        "basis": "Historical total for three nights, five guests, Dec 7–10, 2026",
+        "asOfDate": null,
+        "notes": "Observed price; taxes and fees inclusion unconfirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": "41565766",
+        "maxGuests": 10,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "private outdoor natural onsen",
+          "courtyard",
+          "BBQ",
+          "kitchen",
+          "parking",
+          "paid irori / sunken hearth"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Strong accommodation candidate for Dec 7–10, five guests; not confirmed booked."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.365193,
+        "latitude": 33.274488
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://yuhunokazaya.com/en/info/",
+        "coordinateNote": "Official accommodation map view centre; approximate property vicinity, not a verified entrance."
+      },
+      "icon": "house"
+    },
+    {
+      "id": "lake-kinrin",
+      "category": "poi",
+      "subcategories": [
+        "lake",
+        "shrine"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "金鳞湖",
+        "en": "Lake Kinrin"
+      },
+      "nameJa": "金鱗湖",
+      "description": {
+        "zh": "湖畔散步与晨雾观景候选。标记为湖面参考位置，并非入口。",
+        "en": "Early morning mist, lakeside walking and torii/shrine, all one pin."
+      },
+      "location": {
+        "longitude": 131.36911,
+        "latitude": 33.26671,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Representative lake centre from OpenStreetMap water feature; not a walking entrance.",
+        "sourceUrl": "https://mapcarta.com/W162781794",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "must_visit",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 45
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Must visit early morning; possibly a short run."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.36911,
+        "latitude": 33.26671
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapcarta.com/W162781794",
+        "coordinateNote": "Representative lake centre from OpenStreetMap water feature; not a walking entrance."
+      },
+      "icon": "lake"
+    },
+    {
+      "id": "yunotsubo-kaido",
+      "category": "poi",
+      "subcategories": [
+        "shopping_street",
+        "food"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "汤之坪街道",
+        "en": "Yunotsubo Kaido"
+      },
+      "nameJa": "湯の坪街道",
+      "description": {
+        "zh": "由布院的购物与小吃街。标记为街道代表位置，不代表整条街的范围。",
+        "en": "Street with vendors, sweets, cafés and craft shops."
+      },
+      "location": {
+        "longitude": 131.363118,
+        "latitude": 33.266759,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Published representative point for the shopping street; not its full extent.",
+        "sourceUrl": "https://www.gltjp.com/en/directory/item/15516/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "must_visit",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 120
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Browse casually and forage snacks."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.363118,
+        "latitude": 33.266759
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://www.gltjp.com/en/directory/item/15516/",
+        "coordinateNote": "Published representative point for the shopping street; not its full extent."
+      },
+      "icon": "shop"
+    },
+    {
+      "id": "sagiridai",
+      "category": "poi",
+      "subcategories": [
+        "viewpoint"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "狭雾台",
+        "en": "Sagiridai Viewpoint"
+      },
+      "nameJa": "狭霧台",
+      "description": {
+        "zh": "俯瞰由布院盆地的展望点。",
+        "en": "Viewpoint over the Yufuin basin, possibly misty in the morning."
+      },
+      "location": {
+        "longitude": 131.3825505,
+        "latitude": 33.2600554,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Published viewpoint location; entrance and parking not separately verified.",
+        "sourceUrl": "https://mapfan.com/spots/SCYQI%2CJ%2C44",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 15,
+        "max": 30
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Looks interesting; keep as optional."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.3825505,
+        "latitude": 33.2600554
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapfan.com/spots/SCYQI%2CJ%2C44",
+        "coordinateNote": "Published viewpoint location; entrance and parking not separately verified."
+      },
+      "icon": "viewpoint"
+    },
+    {
+      "id": "tsukahara-onsen",
+      "category": "poi",
+      "subcategories": [
+        "onsen"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "塚原温泉",
+        "en": "Tsukahara Onsen"
+      },
+      "nameJa": "塚原温泉",
+      "description": {
+        "zh": "塚原温泉「火口乃泉」设施参考位置。",
+        "en": "Rustic strongly acidic mineral spring."
+      },
+      "location": {
+        "longitude": 131.422663,
+        "latitude": 33.3130178,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Tsukahara Onsen Kakou no Izumi facility reference; not the broader Tsukahara district.",
+        "sourceUrl": "https://mapfan.com/spots/SCC3Q%2CJ%2CVA0",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 120
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Very interested, but communal nude bathing is a concern."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.422663,
+        "latitude": 33.3130178
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapfan.com/spots/SCC3Q%2CJ%2CVA0",
+        "coordinateNote": "Tsukahara Onsen Kakou no Izumi facility reference; not the broader Tsukahara district."
+      },
+      "icon": "onsen"
+    },
+    {
+      "id": "mount-yufu",
+      "category": "poi",
+      "subcategories": [
+        "mountain"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "由布岳",
+        "en": "Mount Yufu"
+      },
+      "nameJa": "由布岳",
+      "description": {
+        "zh": "由布岳山体参考位置，并非登山口。此前偏好：可能跳过。",
+        "en": "Prominent mountain landmark; summit hike discussed but unlikely in winter."
+      },
+      "location": {
+        "longitude": 131.390278,
+        "latitude": 33.282222,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "JMA mountain reference: 33°16′56″N, 131°23′25″E. Not a trailhead.",
+        "sourceUrl": "https://www.data.jma.go.jp/svd/vois/data/filing/souran_eng/volcanoes/082_yufudake.pdf",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "probably_skip",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep generic map POI, probably not hiking."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.390278,
+        "latitude": 33.282222
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://www.data.jma.go.jp/svd/vois/data/filing/souran_eng/volcanoes/082_yufudake.pdf",
+        "coordinateNote": "JMA mountain reference: 33°16′56″N, 131°23′25″E. Not a trailhead."
+      },
+      "icon": "mountain"
+    }
+  ]
+}

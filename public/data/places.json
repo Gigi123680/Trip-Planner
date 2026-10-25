@@ -1,0 +1,1939 @@
+{
+  "schemaVersion": 1,
+  "places": [
+    {
+      "id": "yufu-no-kaze",
+      "category": "accommodation",
+      "subcategories": [
+        "house",
+        "private_onsen"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "由布之风",
+        "en": "Yufu no Kaze"
+      },
+      "nameJa": "由布の風",
+      "description": {
+        "zh": "独栋住宿候选，设有私人露天温泉、庭院及厨房，适合作为由布院一带的住宿据点。现有资料也提到烧烤设施和需另付费的围炉体验。尚未确认预订，价格及设施详情稍后核实。",
+        "en": "A standalone accommodation candidate with a private outdoor onsen, courtyard and kitchen, suitable as a base around Yufuin. Existing notes also mention BBQ facilities and a paid sunken-hearth experience. Not booked; price and amenities remain to be confirmed."
+      },
+      "location": {
+        "longitude": 131.365193,
+        "latitude": 33.274488,
+        "address": "1212-20 Yufuinchō Kawakami, Yufu, Oita 879-5102, Japan",
+        "precision": "approximate",
+        "pointRepresents": "Official accommodation map view centre; approximate property vicinity, not a verified entrance.",
+        "sourceUrl": "https://yuhunokazaya.com/en/info/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "accommodation",
+          "url": "https://www.airbnb.ca/rooms/41565766?unique_share_id=fe53562c-1729-4757-b02e-5e0d9b27fa56&viralityEntryPoint=1&s=76",
+          "label": "Original Airbnb listing"
+        }
+      ],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 4109.32,
+        "currency": "CNY",
+        "basis": "Historical total for three nights, five guests, Dec 7–10, 2026",
+        "asOfDate": null,
+        "notes": "Observed price; taxes and fees inclusion unconfirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": "41565766",
+        "maxGuests": 10,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "private outdoor natural onsen",
+          "courtyard",
+          "BBQ",
+          "kitchen",
+          "parking",
+          "paid irori / sunken hearth"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Strong accommodation candidate for Dec 7–10, five guests; not confirmed booked."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.365193,
+        "latitude": 33.274488
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://yuhunokazaya.com/en/info/",
+        "coordinateNote": "Official accommodation map view centre; approximate property vicinity, not a verified entrance."
+      },
+      "icon": "house",
+      "poiType": null
+    },
+    {
+      "id": "lake-kinrin",
+      "category": "poi",
+      "subcategories": [
+        "lake",
+        "shrine"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "金鳞湖",
+        "en": "Lake Kinrin"
+      },
+      "nameJa": "金鱗湖",
+      "description": {
+        "zh": "以清晨雾气和湖畔鸟居为主要看点，适合早起前往拍照。计划预留约 30–45 分钟，以摄影和湖边短距离散步为主；能否看到晨雾取决于当天条件。",
+        "en": "Visit early for photography, with morning mist and the lakeside torii as the main attractions. Allow around 30–45 minutes for photos and a short lakeside stroll; mist depends on conditions."
+      },
+      "location": {
+        "longitude": 131.36911,
+        "latitude": 33.26671,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Representative lake centre from OpenStreetMap water feature; not a walking entrance.",
+        "sourceUrl": "https://mapcarta.com/W162781794",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "must_visit",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 45
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Must visit early morning; possibly a short run."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.36911,
+        "latitude": 33.26671
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapcarta.com/W162781794",
+        "coordinateNote": "Representative lake centre from OpenStreetMap water feature; not a walking entrance."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "yunotsubo-kaido",
+      "category": "poi",
+      "subcategories": [
+        "shopping_street",
+        "food"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "汤之坪街道",
+        "en": "Yunotsubo Kaido"
+      },
+      "nameJa": "湯の坪街道",
+      "description": {
+        "zh": "由布院的购物与小吃街，沿途可逛甜点、咖啡及工艺品店。适合边走边吃、随兴停留，暂不限定具体店铺。计划预留约 1–2 小时。",
+        "en": "Yufuin’s shopping and snack street, with sweets, cafés and craft shops. Browse casually and stop for food without committing to particular shops. Allow around 1–2 hours."
+      },
+      "location": {
+        "longitude": 131.363118,
+        "latitude": 33.266759,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Published representative point for the shopping street; not its full extent.",
+        "sourceUrl": "https://www.gltjp.com/en/directory/item/15516/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "must_visit",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 120
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Browse casually and forage snacks."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.363118,
+        "latitude": 33.266759
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://www.gltjp.com/en/directory/item/15516/",
+        "coordinateNote": "Published representative point for the shopping street; not its full extent."
+      },
+      "icon": "shop",
+      "poiType": "food_market"
+    },
+    {
+      "id": "sagiridai",
+      "category": "poi",
+      "subcategories": [
+        "viewpoint"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "狭雾台",
+        "en": "Sagiridai Viewpoint"
+      },
+      "nameJa": "狭霧台",
+      "description": {
+        "zh": "可选停留点：俯瞰由布院盆地的展望台，适合开车途经时短暂停留，欣赏盆地与周围山景。计划停留约 15–30 分钟，不作为必去项目。",
+        "en": "Optional stop: a viewpoint overlooking the Yufuin basin and surrounding mountains. Consider a short stop when driving past; allow around 15–30 minutes. Not a must-visit."
+      },
+      "location": {
+        "longitude": 131.3825505,
+        "latitude": 33.2600554,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Published viewpoint location; entrance and parking not separately verified.",
+        "sourceUrl": "https://mapfan.com/spots/SCYQI%2CJ%2C44",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 15,
+        "max": 30
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Looks interesting; keep as optional."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.3825505,
+        "latitude": 33.2600554
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapfan.com/spots/SCYQI%2CJ%2C44",
+        "coordinateNote": "Published viewpoint location; entrance and parking not separately verified."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "tsukahara-onsen",
+      "category": "poi",
+      "subcategories": [
+        "onsen"
+      ],
+      "regionId": "yufuin",
+      "name": {
+        "zh": "塚原温泉",
+        "en": "Tsukahara Onsen"
+      },
+      "nameJa": "塚原温泉",
+      "description": {
+        "zh": "以酸性矿物泉为特色的温泉候选，目前标记的是「火口乃泉」设施。暂预留约 1–2 小时。可能需要裸浴，尚未核实。",
+        "en": "An onsen candidate noted for its acidic mineral spring; this pin represents the Kakou no Izumi facility. Tentatively allow 1–2 hours. Nude bathing may be mandatory; this has not been verified."
+      },
+      "location": {
+        "longitude": 131.422663,
+        "latitude": 33.3130178,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Tsukahara Onsen Kakou no Izumi facility reference; not the broader Tsukahara district.",
+        "sourceUrl": "https://mapfan.com/spots/SCC3Q%2CJ%2CVA0",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 120
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Very interested, but communal nude bathing is a concern."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.422663,
+        "latitude": 33.3130178
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapfan.com/spots/SCC3Q%2CJ%2CVA0",
+        "coordinateNote": "Tsukahara Onsen Kakou no Izumi facility reference; not the broader Tsukahara district."
+      },
+      "icon": "onsen",
+      "poiType": "hot_spring"
+    },
+    {
+      "id": "umi-jigoku",
+      "category": "poi",
+      "subcategories": [
+        "geothermal"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "海地狱",
+        "en": "Umi Jigoku"
+      },
+      "nameJa": "海地獄",
+      "description": {
+        "zh": "地热景观观赏点，并非泡汤设施。很可能是此次行程唯一会参观的「别府七地狱」，不计划走完整套七地狱。若安排前往，预留约 30–45 分钟。",
+        "en": "A geothermal sightseeing stop rather than a bathing facility. Most likely the only one of Beppu’s Seven Hells we would visit; the full circuit is not planned. Allow around 30–45 minutes if included."
+      },
+      "location": {
+        "longitude": 131.4688082,
+        "latitude": 33.3168745,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Umi Jigoku attraction reference; not a separately verified entrance.",
+        "sourceUrl": "https://mapfan.com/spots/SC5Y4%2CJ%2CA",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 45
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.4688082,
+        "latitude": 33.3168745
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapfan.com/spots/SC5Y4%2CJ%2CA",
+        "coordinateNote": "Umi Jigoku attraction reference; not a separately verified entrance."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "beppu-ropeway",
+      "category": "poi",
+      "subcategories": [
+        "ropeway",
+        "mountain"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "别府缆车",
+        "en": "Beppu Ropeway"
+      },
+      "nameJa": "別府ロープウェイ",
+      "description": {
+        "zh": "乘缆车登上鹤见岳（鶴見岳），俯瞰别府及周围山海景色。冬季若条件合适，可能欣赏到雾凇，作为额外惊喜。预留约 1.5–2.5 小时，顺序可根据能见度灵活调整。标记为缆车下站一带。",
+        "en": "Ride up Mount Tsurumi (鶴見岳) for panoramic views over Beppu and the surrounding landscape. Winter rime ice would be a bonus, depending on conditions. Allow around 1½–2½ hours; keep the timing flexible around visibility. The pin marks the lower-station area."
+      },
+      "location": {
+        "longitude": 131.44636111111112,
+        "latitude": 33.27752777777778,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Lower ropeway station parking reference, not Mount Tsurumi summit.",
+        "sourceUrl": "https://tozanguchi-p.com/post-8233/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 90,
+        "max": 150
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.44636111111112,
+        "latitude": 33.27752777777778
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://tozanguchi-p.com/post-8233/",
+        "coordinateNote": "Lower ropeway station parking reference, not Mount Tsurumi summit."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "kannawa-onsen",
+      "category": "poi",
+      "subcategories": [
+        "neighborhood",
+        "geothermal"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "铁轮温泉",
+        "en": "Kannawa Onsen neighborhood"
+      },
+      "nameJa": "鉄輪温泉",
+      "description": {
+        "zh": "漫步别府温泉街区的蒸汽小巷与传统建筑之间，以散步和摄影为主，不一定需要泡汤。预留约 45–90 分钟，不含另外安排的体验或用餐。",
+        "en": "Explore steaming lanes and traditional buildings in Beppu’s hot-spring neighborhood. Primarily a walking and photography stop; visiting does not need to include bathing. Allow around 45–90 minutes, excluding separate activities or meals."
+      },
+      "location": {
+        "longitude": 131.47807,
+        "latitude": 33.31638,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Representative district centre near Mushiyu; district has no mapped boundary yet.",
+        "sourceUrl": "https://hotelbank.jp/area-analysis/sotoyu-onsen-towns-room-supply-adr-2026/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 45,
+        "max": 90
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.47807,
+        "latitude": 33.31638
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://hotelbank.jp/area-analysis/sotoyu-onsen-towns-room-supply-adr-2026/",
+        "coordinateNote": "Representative district centre near Mushiyu; district has no mapped boundary yet."
+      },
+      "icon": "village",
+      "poiType": "town"
+    },
+    {
+      "id": "kannawa-mushiyu",
+      "category": "poi",
+      "subcategories": [
+        "steam_bath"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "铁轮蒸汽浴",
+        "en": "Kannawa Mushiyu"
+      },
+      "nameJa": "鉄輪むし湯",
+      "description": {
+        "zh": "草药蒸汽浴体验，与周围的铁轮温泉街区分开列为候选。如果同行者想体验泡汤或蒸浴，可以考虑。预留约 45–75 分钟；着装与入浴安排尚未核实。",
+        "en": "A herbal steam-bath experience, kept as a separate candidate from the surrounding Kannawa neighborhood. Consider it if the group wants a bathing activity. Allow around 45–75 minutes; clothing and bathing arrangements remain unverified."
+      },
+      "location": {
+        "longitude": 131.4780617,
+        "latitude": 33.3163802,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Kannawa Mushiyu facility reference.",
+        "sourceUrl": "https://map.yahoo.co.jp/v3/place/r7vbQ3bZAXE",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 45,
+        "max": 75
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.4780617,
+        "latitude": 33.3163802
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://map.yahoo.co.jp/v3/place/r7vbQ3bZAXE",
+        "coordinateNote": "Kannawa Mushiyu facility reference."
+      },
+      "icon": "onsen",
+      "poiType": "hot_spring"
+    },
+    {
+      "id": "myoban-onsen",
+      "category": "poi",
+      "subcategories": [
+        "onsen_district",
+        "geothermal"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "明矾温泉",
+        "en": "Myoban Onsen"
+      },
+      "nameJa": "明礬温泉",
+      "description": {
+        "zh": "以制作「汤之花」矿物浴盐的小屋和地热景观为特色的区域，主要考虑散步、观景与摄影，泡汤并非必选。预留约 30–60 分钟。标记代表这一带，而非某一家浴场。",
+        "en": "An area known for its yunohana mineral-production huts and geothermal scenery. The focus would be looking around and photographing the area; bathing is optional. Allow around 30–60 minutes. The pin represents the district rather than a particular bath."
+      },
+      "location": {
+        "longitude": 131.4515851,
+        "latitude": 33.3174156,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Representative Myoban district point, not a specific bath entrance.",
+        "sourceUrl": "https://mapfan.com/spots/SCC33%2CJ%2CEE0",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.4515851,
+        "latitude": 33.3174156
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapfan.com/spots/SCC33%2CJ%2CEE0",
+        "coordinateNote": "Representative Myoban district point, not a specific bath entrance."
+      },
+      "icon": "village",
+      "poiType": "town"
+    },
+    {
+      "id": "jigoku-mushi-kobo-kannawa",
+      "category": "poi",
+      "subcategories": [
+        "steam_cooking"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "地狱蒸工房 铁轮",
+        "en": "Jigoku Mushi Kobo Kannawa"
+      },
+      "nameJa": "地獄蒸し工房 鉄輪",
+      "description": {
+        "zh": "利用地热蒸汽烹调食物的体验。目前优先级较低，相比烹调体验，更倾向尝试其他当地美食。若安排，暂预留约 30–60 分钟，另加可能的等候时间。",
+        "en": "A geothermal steam-cooking experience in Kannawa. Currently a low-priority option, as the cooking experience is less appealing than other food possibilities. If included, tentatively allow 30–60 minutes, with additional time for any wait."
+      },
+      "location": {
+        "longitude": 131.4762368,
+        "latitude": 33.3154525,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Steam cooking facility reference.",
+        "sourceUrl": "https://map.yahoo.co.jp/v3/place/hB0YJbjsXk2",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "probably_skip",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.4762368,
+        "latitude": 33.3154525
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://map.yahoo.co.jp/v3/place/hB0YJbjsXk2",
+        "coordinateNote": "Steam cooking facility reference."
+      },
+      "icon": "shop",
+      "poiType": "food_market"
+    },
+    {
+      "id": "oga-fishing-port-market",
+      "category": "poi",
+      "subcategories": [
+        "fish_market"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "大神渔港早市",
+        "en": "Oga Fishing Port Morning Market"
+      },
+      "nameJa": "大神漁港朝市",
+      "description": {
+        "zh": "位于邻近日出町的海鲜采购候选点，可以考虑买鱼带回由布院住宿烹调。具体市场名称、营业日期和时间仍需确认，暂不作为确定行程；是否提供鱼类处理服务也尚未核实。",
+        "en": "A seafood-shopping candidate in nearby Hiji, potentially for buying fish to cook at the Yufuin accommodation. Keep tentative until the exact market identity, operating days and hours are confirmed. Fish-cleaning services have not been verified."
+      },
+      "location": {
+        "longitude": 131.5814885,
+        "latitude": 33.3537743,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Official tourism directions for the Fukae morning market, Oga 5418, Hiji.",
+        "sourceUrl": "https://hijinavi.com/spots/detail/124",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "map",
+          "url": "https://maps.app.goo.gl/ZMg5ern3ZDdJmWBaA",
+          "label": "Google Maps (user supplied)"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": "Previously discussed approximate 7–8 a.m. morning window; operating days and actual hours unverified.",
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        },
+        {
+          "origin": "user",
+          "text": "Treat 大神漁港魚市場 and 大神漁港朝市 as one location; regionId remains beppu-area although geographically in Hiji."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.5814885,
+        "latitude": 33.3537743
+      },
+      "source": {
+        "label": "Google Maps (user supplied)",
+        "url": "https://maps.app.goo.gl/ZMg5ern3ZDdJmWBaA",
+        "coordinateNote": "Official tourism directions for the Fukae morning market, Oga 5418, Hiji."
+      },
+      "icon": "shop",
+      "poiType": "food_market"
+    },
+    {
+      "id": "beppu-station-market",
+      "category": "poi",
+      "subcategories": [
+        "market"
+      ],
+      "regionId": "beppu-area",
+      "name": {
+        "zh": "别府站市场",
+        "en": "Beppu Station Market"
+      },
+      "nameJa": "べっぷ駅市場",
+      "description": {
+        "zh": "别府站附近的日常食品市场候选，适合随逛，也可以考虑采购晚餐食材带回住宿。预留约 30–60 分钟。各店铺的营业日期和时间仍需确认。",
+        "en": "An everyday food-market candidate near Beppu Station, suited to browsing and potentially buying ingredients for dinner at the accommodation. Allow around 30–60 minutes. Individual vendors’ opening days and hours still need checking."
+      },
+      "location": {
+        "longitude": 131.4992579,
+        "latitude": 33.2769596,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Published map point for the market south of Beppu Station; not every individual stall.",
+        "sourceUrl": "https://parabeppu.com/spot/2513/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "map",
+          "url": "https://maps.app.goo.gl/ztC9GzQBrBQGa8tQA",
+          "label": "Google Maps (user supplied)"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": "Vendor-specific hours not established.",
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as discussed option; no final visit commitment."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.4992579,
+        "latitude": 33.2769596
+      },
+      "source": {
+        "label": "Google Maps (user supplied)",
+        "url": "https://maps.app.goo.gl/ztC9GzQBrBQGa8tQA",
+        "coordinateNote": "Published map point for the market south of Beppu Station; not every individual stall."
+      },
+      "icon": "shop",
+      "poiType": "food_market"
+    },
+    {
+      "id": "kurokawa-village-center",
+      "category": "poi",
+      "subcategories": [
+        "village",
+        "shopping_street",
+        "riverside"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "黑川温泉街",
+        "en": "Kurokawa Onsen village center"
+      },
+      "nameJa": "黒川温泉街",
+      "description": {
+        "zh": "黑川住宿期间的主要活动：轻松探索村中小巷、河畔、桥梁、咖啡馆与小店，自由散步，随时停下来吃小吃、拍照。大致预留 1–3 小时，不含泡汤及正餐。商店和咖啡馆可能较早关门，小吃和购物尽量安排在白天，不要全留到晚上。",
+        "en": "The main focus of our Kurokawa stay: explore the village lanes, riverside, bridges, cafés and small shops at a relaxed pace. Wander independently, stopping for snacks and photographs. Allow roughly 1–3 hours, excluding baths and meals. Shops and cafés may close early, so prioritize snack browsing during the day rather than leaving it until evening."
+      },
+      "location": {
+        "longitude": 131.14194,
+        "latitude": 33.07771,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "OpenStreetMap village reference point; no boundary or walking route implied.",
+        "sourceUrl": "https://mapcarta.com/38916990",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "must_visit",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 180
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Explore thoroughly and independently with no strict schedule."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.14194,
+        "latitude": 33.07771
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://mapcarta.com/38916990",
+        "coordinateNote": "OpenStreetMap village reference point; no boundary or walking route implied."
+      },
+      "icon": "village",
+      "poiType": "town"
+    },
+    {
+      "id": "yamamizuki-outdoor-bath",
+      "category": "poi",
+      "subcategories": [
+        "outdoor_onsen"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "山水木露天温泉",
+        "en": "Yamamizuki outdoor bath"
+      },
+      "nameJa": "山みず木",
+      "description": {
+        "zh": "可选景观温泉：特色是露天浴池紧邻山间溪流，四周环绕树林，适合想近距离感受溪畔氛围的人。与山河的幽静林间环境、こうの湯的深水立浴相比，这里更突出亲水景观。位于温泉街中心之外，需确认日归入浴安排；公共裸浴可能影响是否选择。",
+        "en": "Optional scenic bath: the standout feature is its open-air setting directly beside a mountain stream, with woodland around the water. Choose this for the close riverside atmosphere rather than the deep-bath novelty of Kounoyu or Sanga’s secluded woodland setting. Outside the village center; confirm day-use access. Communal nudity may be a consideration."
+      },
+      "location": {
+        "longitude": 131.1567315,
+        "latitude": 33.0780274,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Ryokan property map reference; exact outdoor bath entrance not separately verified.",
+        "sourceUrl": "https://onsenpick.com/en/ryokan/yamamizuki/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": 600,
+        "currency": "JPY",
+        "basis": "Historical approximate individual adult day-use admission",
+        "asOfDate": null,
+        "notes": "Previously discussed estimate, not verified for travel dates."
+      },
+      "openingHoursNotes": "Day-use bathing previously discussed as generally ending around 3 p.m.; verify.",
+      "accessNotes": "Standard bath pass is for communal gender-separated baths, not private family baths.",
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Interested in scenic wilderness bath; family may prefer private facilities."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.1567315,
+        "latitude": 33.0780274
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://onsenpick.com/en/ryokan/yamamizuki/",
+        "coordinateNote": "Ryokan property map reference; exact outdoor bath entrance not separately verified."
+      },
+      "icon": "onsen",
+      "poiType": "hot_spring"
+    },
+    {
+      "id": "sanga-outdoor-bath",
+      "category": "poi",
+      "subcategories": [
+        "outdoor_onsen"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "山河露天温泉",
+        "en": "Sanga outdoor bath"
+      },
+      "nameJa": "山河",
+      "description": {
+        "zh": "可选景观温泉：位于温泉街中心之外，露天浴池融入幽静树林，侧重远离街区的林间氛围。相比之下，山水木更突出贴近溪流的景观，こうの湯则以深水立浴为特色。需确认入浴形式和日归开放情况，不代表可私人包场。",
+        "en": "Optional scenic bath: a secluded wooded setting outside the village center, with outdoor baths integrated into the forest landscape. Choose this for a quiet woodland retreat; Yamamizuki puts more emphasis on being right beside the stream, while Kounoyu stands out for its deep standing bath. Confirm the bathing arrangements and day-use access; private bathing is not implied."
+      },
+      "location": {
+        "longitude": 131.1321702,
+        "latitude": 33.0790366,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Ryokan property map reference; exact outdoor bath entrance not separately verified.",
+        "sourceUrl": "https://onsenpick.com/en/ryokan/ryokan-sanga/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": "Standard bath pass is for communal gender-separated baths, not private family baths.",
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Interested in scenic wilderness bath; family may prefer private facilities."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.1321702,
+        "latitude": 33.0790366
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://onsenpick.com/en/ryokan/ryokan-sanga/",
+        "coordinateNote": "Ryokan property map reference; exact outdoor bath entrance not separately verified."
+      },
+      "icon": "onsen",
+      "poiType": "hot_spring"
+    },
+    {
+      "id": "kounoyu-outdoor-bath",
+      "category": "poi",
+      "subcategories": [
+        "outdoor_onsen"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "Kounoyu露天温泉",
+        "en": "Kounoyu outdoor bath"
+      },
+      "nameJa": "こうの湯",
+      "description": {
+        "zh": "可选景观温泉：特色是林间露天浴区内的深水立浴，适合想尝试不同入浴方式的人。与山水木的溪畔景观、山河的幽静森林环境有所区别。深水未必适合所有同行者，日归开放情况和入浴安排仍需确认。",
+        "en": "Optional scenic bath: its distinctive feature is the deep standing bath within the wooded open-air bathing area. Choose this for a different bathing experience rather than Yamamizuki’s streamside scenery or Sanga’s secluded forest atmosphere. Deep water may not suit everyone. Confirm day-use access and bathing arrangements."
+      },
+      "location": {
+        "longitude": 131.13542171508098,
+        "latitude": 33.0805115757558,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Ryokan property map reference; exact outdoor bath entrance not separately verified.",
+        "sourceUrl": "https://onsenpick.com/en/ryokan/kounoyu/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": 700,
+        "currency": "JPY",
+        "basis": "Historical approximate individual adult day-use admission",
+        "asOfDate": null,
+        "notes": "Previously discussed estimate, not verified for travel dates."
+      },
+      "openingHoursNotes": "Longer day-use evening hours discussed as possible, unverified.",
+      "accessNotes": "Standard bath pass is for communal gender-separated baths, not private family baths.",
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Interested in scenic wilderness bath; family may prefer private facilities."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.13542171508098,
+        "latitude": 33.0805115757558
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://onsenpick.com/en/ryokan/kounoyu/",
+        "coordinateNote": "Ryokan property map reference; exact outdoor bath entrance not separately verified."
+      },
+      "icon": "onsen",
+      "poiType": "hot_spring"
+    },
+    {
+      "id": "yamabiko-ryokan",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "山彦旅馆",
+        "en": "Yamabiko Ryokan"
+      },
+      "nameJa": "やまびこ旅館",
+      "description": {
+        "zh": "此前参考起价：每位成人每晚约 ¥17,000，含晚餐与早餐，税前。并非此次日期的当前报价，实际价格随房型、入住人数及方案变化。设施：大型露天浴池、公共室内浴池及六间私人家庭浴池。",
+        "en": "Earlier reference starting rate: approximately ¥17,000 per adult per night with dinner and breakfast, before tax. Not a current quote for our dates; price depends on room, occupancy and plan. Amenities: Large outdoor bath, indoor communal baths and six private family baths."
+      },
+      "location": {
+        "longitude": 131.14175,
+        "latitude": 33.077491,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Approximate position from the property official map link viewport; entrance not verified.",
+        "sourceUrl": "https://yamabiko-ryokan.com/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "official",
+          "url": "https://yamabiko-ryokan.com/foreign_english/index.html",
+          "label": "Official facilities information"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 17000,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "outdoor bath",
+          "indoor communal baths",
+          "six private family baths"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.14175,
+        "latitude": 33.077491
+      },
+      "source": {
+        "label": "Official facilities information",
+        "url": "https://yamabiko-ryokan.com/foreign_english/index.html"
+      },
+      "icon": "house",
+      "poiType": null
+    },
+    {
+      "id": "ryokan-nanjoen",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "南城苑旅馆",
+        "en": "Ryokan Nanjoen"
+      },
+      "nameJa": "南城苑",
+      "description": {
+        "zh": "此前参考起价：每位成人每晚约 ¥19,000，含晚餐与早餐，税前。并非此次日期的当前报价，实际价格随房型、入住人数及方案变化。设施：露天浴池、住客专用室内及半露天浴区，以及石造和桧木两间私人家庭浴池。",
+        "en": "Earlier reference starting rate: approximately ¥19,000 per adult per night with dinner and breakfast, before tax. Not a current quote for our dates; price depends on room, occupancy and plan. Amenities: Outdoor baths, a guest-only indoor/semi-open-air bathing area, and two private family baths (stone and cypress)."
+      },
+      "location": {
+        "longitude": 131.1410571,
+        "latitude": 33.0779163,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Ryokan property map reference; exact entrance not separately verified.",
+        "sourceUrl": "https://onsenpick.com/en/ryokan/ryokan-nanjoen/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "official",
+          "url": "https://www.nanjoen.com/en/hot_spring",
+          "label": "Official facilities information"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 19000,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "outdoor baths",
+          "guest-only indoor/semi-open-air baths",
+          "two private family baths"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.1410571,
+        "latitude": 33.0779163
+      },
+      "source": {
+        "label": "Official facilities information",
+        "url": "https://www.nanjoen.com/en/hot_spring"
+      },
+      "icon": "house",
+      "poiType": null
+    },
+    {
+      "id": "ryokan-yumotoso",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "汤本庄旅馆",
+        "en": "Ryokan Yumotoso"
+      },
+      "nameJa": "湯本荘",
+      "description": {
+        "zh": "此前参考起价：每位成人每晚约 ¥20,000，含晚餐与早餐，税前。并非此次日期的当前报价，实际价格随房型、入住人数及方案变化。设施：露天浴池、男女分开的室内浴池，以及三间供住客单独使用的浴池。",
+        "en": "Earlier reference starting rate: approximately ¥20,000 per adult per night with dinner and breakfast, before tax. Not a current quote for our dates; price depends on room, occupancy and plan. Amenities: Outdoor and gender-separated indoor baths, plus three baths for exclusive guest use."
+      },
+      "location": {
+        "longitude": 131.1402707,
+        "latitude": 33.0780609,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Ryokan property map reference; exact entrance not separately verified.",
+        "sourceUrl": "https://onsenpick.com/en/ryokan/kurokawa-yumotoso/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "official",
+          "url": "https://www.kurokawaonsen.or.jp/en/oyado/innInfo.php?intYKey=26",
+          "label": "Official facilities information"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 20000,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "outdoor bath",
+          "gender-separated indoor baths",
+          "three exclusive-use guest baths"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.1402707,
+        "latitude": 33.0780609
+      },
+      "source": {
+        "label": "Official facilities information",
+        "url": "https://www.kurokawaonsen.or.jp/en/oyado/innInfo.php?intYKey=26"
+      },
+      "icon": "house",
+      "poiType": null
+    },
+    {
+      "id": "ikoi-ryokan",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "憩旅馆",
+        "en": "Ikoi Ryokan"
+      },
+      "nameJa": "いこい旅館",
+      "description": {
+        "zh": "此前参考起价：每位成人每晚约 ¥21,500，含晚餐与早餐，税前。并非此次日期的当前报价，实际价格随房型、入住人数及方案变化。设施：瀑布式温泉、立浴、桧木浴池及私人家庭浴池等多种浴池，并有和室与和洋室房型。",
+        "en": "Earlier reference starting rate: approximately ¥21,500 per adult per night with dinner and breakfast, before tax. Not a current quote for our dates; price depends on room, occupancy and plan. Amenities: A variety of baths including waterfall-style, standing, cypress and private family baths; Japanese and Japanese-Western room options."
+      },
+      "location": {
+        "longitude": 131.1424202,
+        "latitude": 33.0772572,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Ryokan property map reference; exact entrance not separately verified.",
+        "sourceUrl": "https://onsenpick.com/en/ryokan/ikoi-ryokan/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "official",
+          "url": "https://www.ikoi-ryokan.com/english/index.html",
+          "label": "Official facilities information"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 21500,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "waterfall-style bath",
+          "standing bath",
+          "cypress bath",
+          "private family baths"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.1424202,
+        "latitude": 33.0772572
+      },
+      "source": {
+        "label": "Official facilities information",
+        "url": "https://www.ikoi-ryokan.com/english/index.html"
+      },
+      "icon": "house",
+      "poiType": null
+    },
+    {
+      "id": "ryokan-wakaba",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "若叶旅馆",
+        "en": "Ryokan Wakaba"
+      },
+      "nameJa": "旅館わかば",
+      "description": {
+        "zh": "此前参考起价：每位成人每晚约 ¥23,100，含晚餐与早餐，税前。并非此次日期的当前报价，实际价格随房型、入住人数及方案变化。设施：室内浴池、露天浴池、私人家庭浴池，以及和室与和洋室。部分独立客房带室内浴池，并非所有房间都有。",
+        "en": "Earlier reference starting rate: approximately ¥23,100 per adult per night with dinner and breakfast, before tax. Not a current quote for our dates; price depends on room, occupancy and plan. Amenities: Indoor and outdoor baths, private family baths, and Japanese/Japanese-Western rooms. Some detached rooms have indoor baths; not all rooms do."
+      },
+      "location": {
+        "longitude": 131.1429949,
+        "latitude": 33.076555,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Ryokan property map reference; exact entrance not separately verified.",
+        "sourceUrl": "https://onsenpick.com/en/ryokan/ryokan-wakaba/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "official",
+          "url": "https://www.ryokanwakaba.com/",
+          "label": "Official facilities information"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 23100,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "indoor baths",
+          "outdoor baths",
+          "private family baths",
+          "some detached rooms with indoor baths"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.1429949,
+        "latitude": 33.076555
+      },
+      "source": {
+        "label": "Official facilities information",
+        "url": "https://www.ryokanwakaba.com/"
+      },
+      "icon": "house",
+      "poiType": null
+    },
+    {
+      "id": "oyado-noshiyu",
+      "category": "accommodation",
+      "subcategories": [
+        "ryokan"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "Noshiyu旅馆",
+        "en": "Oyado Noshiyu"
+      },
+      "nameJa": "お宿 のし湯",
+      "description": {
+        "zh": "此前参考起价：每位成人每晚约 ¥24,000，含晚餐与早餐，税前。并非此次日期的当前报价，实际价格随房型、入住人数及方案变化。设施：林间露天浴区、私人浴池及庭园式环境。选择方案时需确认具体房型设施与私人浴池使用方式。",
+        "en": "Earlier reference starting rate: approximately ¥24,000 per adult per night with dinner and breakfast, before tax. Not a current quote for our dates; price depends on room, occupancy and plan. Amenities: Wooded open-air bathing areas and private baths, with a garden-like setting. Confirm room-specific facilities and private-bath use when selecting a plan."
+      },
+      "location": {
+        "longitude": 131.1426247,
+        "latitude": 33.0782298,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Ryokan property map reference; exact entrance not separately verified.",
+        "sourceUrl": "https://onsenpick.com/en/ryokan/oyado-noshiyu/",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "official",
+          "url": "https://noshiyu.jp/lp/onsen/",
+          "label": "Official facilities information"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": null,
+      "cost": {
+        "amount": 24000,
+        "currency": "JPY",
+        "basis": "Previously discussed published starting rate per adult per night, two meals, before tax; not a confirmed quote for Dec 10",
+        "asOfDate": null,
+        "notes": "Actual total depends on occupancy, room and date; no availability confirmed."
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": {
+        "listingId": null,
+        "maxGuests": null,
+        "bedrooms": null,
+        "beds": null,
+        "bathrooms": null,
+        "amenities": [
+          "wooded outdoor baths",
+          "private baths"
+        ],
+        "mealsIncluded": [],
+        "checkInTime": null,
+        "checkOutTime": null
+      },
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as accommodation candidate; prioritize walkability, value, family dinner and breakfast."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.1426247,
+        "latitude": 33.0782298
+      },
+      "source": {
+        "label": "Official facilities information",
+        "url": "https://noshiyu.jp/lp/onsen/"
+      },
+      "icon": "house",
+      "poiType": null
+    },
+    {
+      "id": "nabegataki",
+      "category": "poi",
+      "subcategories": [
+        "waterfall"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "锅瀑布",
+        "en": "Nabegataki Waterfall"
+      },
+      "nameJa": "鍋ヶ滝",
+      "description": {
+        "zh": "可选景观停留点：宽阔水帘垂落在林间溪谷，后方步道开放时可从瀑布背面观赏。现场预留约 30–45 分钟，另加车程。决定绕道前需核实开放情况及预约要求。",
+        "en": "Optional scenery stop: a broad curtain of falling water framed by a wooded ravine, noted for views from behind the waterfall when that path is accessible. Allow around 30–45 minutes on site, plus driving. Check access and reservation requirements before including this detour."
+      },
+      "location": {
+        "longitude": 131.035323,
+        "latitude": 33.137686,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Waterfall reference, not parking or trail entrance.",
+        "sourceUrl": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 45
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Optional, not mandatory; could visit on departure and reduce Aso time."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.035323,
+        "latitude": 33.137686
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "coordinateNote": "Waterfall reference, not parking or trail entrance."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "meotodaki",
+      "category": "poi",
+      "subcategories": [
+        "waterfall"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "夫妇瀑布",
+        "en": "Meotodaki Waterfall"
+      },
+      "nameJa": "夫婦滝",
+      "description": {
+        "zh": "可选景观停留点：两道瀑布从林间溪谷流下，在下方汇合。适合作为较短的摄影绕行，现场预留约 20–30 分钟，另加往返时间；以不挤压温泉街游览和后续车程为前提。",
+        "en": "Optional scenery stop: two waterfalls descend through a wooded ravine and meet at the confluence below. A shorter photography detour, allowing around 20–30 minutes on site plus travel. Include only if it leaves enough time for the village and onward drive."
+      },
+      "location": {
+        "longitude": 131.113776,
+        "latitude": 33.084679,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Waterfall reference, not parking or trail entrance.",
+        "sourceUrl": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 20,
+        "max": 30
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Optional, not mandatory; could visit on departure and reduce Aso time."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.113776,
+        "latitude": 33.084679
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "coordinateNote": "Waterfall reference, not parking or trail entrance."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "hiranodai-viewpoint",
+      "category": "poi",
+      "subcategories": [
+        "viewpoint"
+      ],
+      "regionId": "kurokawa",
+      "name": {
+        "zh": "平野台高原展望台",
+        "en": "Hiranodai Viewpoint"
+      },
+      "nameJa": "平野台高原展望所",
+      "description": {
+        "zh": "欣赏乡间与山地风景的高原展望点，既有资料中也称为「恋人之丘」。目前为可选活动，尚未确定安排。开车短访与较长的乡间步行是两种不同安排，步行路线及所需时间尚未确认。",
+        "en": "A highland viewpoint for countryside and mountain scenery, also referred to as Lovers Hill in the saved notes. An optional outing rather than a selected stop. A driving visit and a longer countryside walk would be different activities; no walking route or duration is confirmed yet."
+      },
+      "location": {
+        "longitude": 131.160943873,
+        "latitude": 33.083327865,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Hiranodai viewpoint reference; walking access not calculated.",
+        "sourceUrl": "https://map.yahoo.co.jp/v3/place/yOTjpc9L-Vs",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": null,
+        "max": null
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep on map for later pruning; not yet selected."
+        },
+        {
+          "origin": "assistant",
+          "text": "Earlier suggested as a walking excursion, potentially around three hours on foot; car visit could be shorter."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.160943873,
+        "latitude": 33.083327865
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://map.yahoo.co.jp/v3/place/yOTjpc9L-Vs",
+        "coordinateNote": "Hiranodai viewpoint reference; walking access not calculated."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "daikanbo",
+      "category": "poi",
+      "subcategories": [
+        "viewpoint",
+        "caldera"
+      ],
+      "regionId": "aso",
+      "name": {
+        "zh": "大观峰",
+        "en": "Daikanbo"
+      },
+      "nameJa": "大観峰",
+      "description": {
+        "zh": "阿苏火山口盆地北缘的全景展望点，可感受盆地规模及周围山景。可作为从黑川经阿苏前往熊本途中的停留点，从停车处需步行一小段。预留约 30–60 分钟观景和摄影。如果天气好但只够安排一处主要景点，优先选择草千里。",
+        "en": "A panoramic viewpoint on the northern rim of the Aso caldera, offering a sense of the basin’s scale and its surrounding mountains. A possible stop on the drive from Kurokawa through Aso toward Kumamoto, with a short walk from parking. Allow around 30–60 minutes for sightseeing and photography. If time permits only one main stop in good weather, prioritize Kusasenri."
+      },
+      "location": {
+        "longitude": 131.0670948,
+        "latitude": 32.9956615,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Viewpoint reference, not a parking entrance.",
+        "sourceUrl": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as one of the three Aso POIs; likely stop on the Kurokawa-to-Kumamoto route."
+        },
+        {
+          "origin": "assistant",
+          "text": "Complements Kusasenri by showing the overall scale of the caldera."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.0670948,
+        "latitude": 32.9956615
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "coordinateNote": "Viewpoint reference, not a parking entrance."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "kusasenrigahama",
+      "category": "poi",
+      "subcategories": [
+        "grassland",
+        "volcanic_landscape"
+      ],
+      "regionId": "aso",
+      "name": {
+        "zh": "草千里之滨",
+        "en": "Kusasenrigahama"
+      },
+      "nameJa": "草千里ヶ浜",
+      "description": {
+        "zh": "开阔草原与池塘相映，可眺望阿苏中央火山群。天气好且只能安排一处阿苏主要景点时，优先选择这里，以摄影和轻松散步为主。附近也有博物馆、咖啡馆及餐饮可选。根据步行和额外游览内容，预留约 1–2 小时。",
+        "en": "An expansive grassland landscape with ponds and views toward Aso’s central volcanic peaks. Our first choice if we make only one main Aso stop and the weather is nice: photography and a relaxed walk are the focus. A museum, cafés and dining are nearby if wanted. Allow around 1–2 hours, depending on walking and additional sightseeing."
+      },
+      "location": {
+        "longitude": 131.0535468,
+        "latitude": 32.8814658,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Representative grassland location, not a parking entrance.",
+        "sourceUrl": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [],
+      "images": [],
+      "preference": "likely",
+      "estimatedVisitMinutes": {
+        "min": 60,
+        "max": 120
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": null,
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as one of the three Aso POIs; likely stop."
+        },
+        {
+          "origin": "assistant",
+          "text": "Complementary to Daikanbo: experience the volcanic highlands from within the landscape."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.0535468,
+        "latitude": 32.8814658
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "coordinateNote": "Representative grassland location, not a parking entrance."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    },
+    {
+      "id": "nakadake-crater",
+      "category": "poi",
+      "subcategories": [
+        "volcanic_crater"
+      ],
+      "regionId": "aso",
+      "name": {
+        "zh": "中岳火口",
+        "en": "Nakadake Crater"
+      },
+      "nameJa": "中岳火口",
+      "description": {
+        "zh": "阿苏的活火山口，开放时可能看到蒸汽喷口和火口湖。本次优先级较低，更可能只是开车经过附近火山景观，不专程参观火口。火口本身并非开车经过就能看到的景点，近距离参观需要另行安排交通和时间。若改变计划，暂预留现场约 30–60 分钟，另加往返时间，并核实官方限制。标记为火口位置，而非游客入口。",
+        "en": "Aso’s active volcanic crater, with possible views of steam vents and the crater lake when accessible. Low priority for this trip: most likely only a drive through the nearby volcanic landscape, without a dedicated crater visit. The crater itself is not a drive-by viewing point; a closer visit would require separate access and time. If plans change, tentatively allow 30–60 minutes on site plus access time, and check official restrictions. The pin marks the crater, not a visitor entrance."
+      },
+      "location": {
+        "longitude": 131.0849344,
+        "latitude": 32.884907,
+        "address": null,
+        "precision": "approximate",
+        "pointRepresents": "Crater reference point, not the visitor terminal or a guarantee of access.",
+        "sourceUrl": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "resolvedOn": "2026-10-24"
+      },
+      "links": [
+        {
+          "type": "official",
+          "url": "https://www.aso-volcano.jp/eng/html/access.html",
+          "label": "Official crater access information"
+        }
+      ],
+      "images": [],
+      "preference": "maybe",
+      "estimatedVisitMinutes": {
+        "min": 30,
+        "max": 60
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "asOfDate": null,
+        "notes": null
+      },
+      "openingHoursNotes": null,
+      "accessNotes": "Check official access restrictions before visiting; access is not guaranteed.",
+      "bookingRequired": null,
+      "accommodation": null,
+      "planningNotes": [
+        {
+          "origin": "user",
+          "text": "Keep as a third Aso POI, conditional rather than mandatory."
+        },
+        {
+          "origin": "assistant",
+          "text": "Access depends on volcanic activity, gas, weather and official restrictions; previously discussed closure must not be assumed current."
+        }
+      ],
+      "coordinates": {
+        "longitude": 131.0849344,
+        "latitude": 32.884907
+      },
+      "source": {
+        "label": "Coordinate source",
+        "url": "https://onsenpick.com/kyushu-data/data.js?v=20260912-12",
+        "coordinateNote": "Crater reference point, not the visitor terminal or a guarantee of access."
+      },
+      "icon": "mountain",
+      "poiType": "natural_scenery"
+    }
+  ]
+}
