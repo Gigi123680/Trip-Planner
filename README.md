@@ -1,89 +1,271 @@
-# Kyushu map — first increment
+# Kyushu Trip Planner
 
-React + TypeScript + Vite + MapLibre. A read-only map centred on Kyushu, with two map styles and a reset-view button. Map tiles are currently served by OpenFreeMap; this is not an offline map.
+A bilingual, map-first travel prototype for reviewing places and accommodation
+candidates around Kyushu. Built with React, TypeScript, Vite and MapLibre GL JS.
 
-## Develop
+- **Website:** https://gigi123680.github.io/Trip-Planner/
+- **Repository:** https://github.com/Gigi123680/Trip-Planner
+- The website is public and read-only. Visitors need only a browser.
+- No backend, database, account or running personal PC is required.
+- Shared voting and itinerary editing are **not implemented**.
 
-Install Node.js LTS, then run `npm install` and `npm run dev` in this directory. Open the printed localhost address. Run `npm run build` to type-check and generate `dist/` for static hosting. `npm run preview` previews that build.
+## Clone and run
 
-## Decisions
+Install Git and **Node.js 24 with npm** (matching the deployment workflow).
+These commands work in Linux, WSL or a Windows terminal:
 
-- Develop in Ubuntu WSL at /home/weiqian/projects/kyushu-map; a dedicated Linux machine may host a later backend.
-- Use hosted OpenFreeMap for this prototype; prefer self-hosted regional map data later. Tile generation, fonts, sprites, disk requirements and update strategy will be evaluated separately.
-- Public sharing is acceptable for now. No authentication in the prototype.
-- Add places and details next, followed by itinerary filters and precomputed road routes.
-- Future data starts in JSON/local images, behind a small data-access layer. Later options: REST API, SQLite, editing and multiple users.
-- Live accommodation embeds depend on the external site's embedding permissions; ordinary listing cards and links remain the fallback.
+```sh
+git clone https://github.com/Gigi123680/Trip-Planner.git
+cd Trip-Planner
+npm ci
+npm run dev
+```
 
-Map source configuration lives in `src/config.ts`. Styling works with hosted sources too; self-hosting primarily adds control over data and operation. Google Fonts are currently an optional online visual dependency, with system-font fallbacks.
+Open the URL Vite prints, normally `http://localhost:5173/`. Keep that terminal
+running while developing. Saving source files updates the browser automatically.
+The development address is local; share the GitHub Pages address with visitors.
+For WSL development, keep the checkout in the Linux filesystem and run npm there.
+Do not share one `node_modules` directory between Windows and Linux.
 
-No backend, geocoder or route engine is required for this increment. No deployment has been made. Relative asset paths are configured for GitHub Pages; publishing automation will be added when a repository is selected.
+Use **npm and package-lock.json** for installs and dependency updates: CI uses
+`npm ci`. The repository also contains earlier pnpm files, but they are not used
+by the current workflow. Do not switch package managers as part of unrelated work.
 
-## Current local setup
+### Existing owner's WSL setup
 
-Run `./dev.sh` in this directory. Open http://kyushu.localhost:5175/ on this Windows computer. The server must remain running. Node is installed under ~/.local/share/kyushu-node; dev.sh adds it to PATH for this project.
+The original checkout is `/home/weiqian/projects/kyushu-map`, with development at
+`http://kyushu.localhost:5175/`. Its `dev.sh` reads an ignored `.node-bin` file
+containing a machine-specific Node binary directory. That helper is optional and
+will not work in a fresh clone without local setup. Prefer the portable npm
+commands above; no custom DNS entry is required for `localhost`.
 
-Simplified Chinese is the default interface, with a persistent English switch. External listing previews retain their source language. Future place records should support language-keyed titles and descriptions with Chinese-first fallback; map label language is separate from interface language. No machine translation service is connected.
+## How the app works
 
-## Places
+```text
+JSON records + regional notes + cached road GeoJSON
+                      ↓
+          React state, filters and language
+                      ↓
+      MapLibre map + pins + popups + sidebar
+```
 
-`public/data/places.json` is the source of place records (schemaVersion 1). `src/places.ts` validates and loads the file, providing a future API replacement boundary. Add `poi` or `accommodation` records with localized names and longitude/latitude; optional descriptions and HTTP(S) source links populate the popup. DOM markers stay visible through base-style changes. No backend is involved.
+`loadPlaces()` is the boundary between stored place data and the UI. It currently
+fetches a local JSON file. A future API can replace that loader without making the
+UI depend on database details. React manages interface state; MapLibre manages the
+map. Marker, popup and SVG overlay objects are created inside React effects and
+must be cleaned up when their dependencies change.
 
-First POI: Mount Aso (Nakadake), using JMA's published reference coordinates, 32°53′01″N 131°05′49″E. This is a mountain reference, not an access point, car park or precise crater viewing location. Description is explicitly a placeholder.
+Map tiles come from **OpenFreeMap Liberty**, and Google Fonts have system-font
+fallbacks. This is not an offline map. Routing is precomputed, not requested from
+OSRM as visitors use the site. No geocoder is called by the running frontend.
 
-Marker appearance: teardrop SVG pins with a multi-peak mountain POI icon and a house accommodation icon. The colour Liberty background is the only exposed style; the Quiet selector was removed.
+## File guide
 
-## Yufuin batch
+| File or directory | Purpose |
+| --- | --- |
+| `src/main.tsx` | App state, sidebar/search, map lifecycle, markers/popups, region interactions and overlap spreading. Currently one large component; make focused changes. |
+| `src/styles.css` | Existing responsive visual design and interaction states. Later rules override some earlier prototype styles. Inspect the cascade before adding another override. |
+| `src/places.ts` | Place types, localized text helper, runtime validation and JSON loading. |
+| `src/filters.ts` | Region/type options, place filtering and URL state serialization. |
+| `src/trip-overview.ts` | Region-label anchors/offsets, POI categories/icon mapping and bundled road geometry. |
+| `src/marker-art.ts` | Locally authored SVG teardrop pin artwork. |
+| `src/areas.ts` | Region camera extents, approximate village/street footprints and screen-space overlap detection. |
+| `src/region-notes.json` | Bilingual regional notes actually displayed by region tags. |
+| `src/i18n.ts` | Interface translations, language type and saved language preference. |
+| `src/config.ts` | Map style URLs and initial Kyushu bounds. Only Liberty is exposed in the current UI. |
+| `public/data/places.json` | **Runtime place dataset**, fetched by the browser. |
+| `data/kyushu-planning.json` | Editable planning master, including richer place records, regional notes and future trip fields. |
+| `data/imports/kyushu_places.json` | Original imported export; preserve as an archive, not the runtime source. |
+| `data/prototype-places.json` | Historical first-marker data; do not reimport into the current map. |
+| `public/routes/driving.geojson` | Saved OSRM road routes and generation/snap metadata; bundled via a raw import. |
+| `vite.config.ts` | Relative asset base (`./`) for GitHub Pages subdirectory hosting. |
+| `.github/workflows/deploy-pages.yml` | Build and publish automation. |
 
-Six Yufuin records are mapped, with source URLs and approximate-location caveats. The original export is unchanged in data/imports. data/kyushu-planning.json preserves all 30 records, regional notes and stays, with six resolved positions; only the resolved Yufuin batch plus the original Aso test marker are published in public/data/places.json. Other regions remain pending. Accommodation identity matched the official site's Airbnb room 41565766; coordinates use its map viewport centre and are explicitly approximate. Icons use locally authored SVG artwork.
+There is **no automatic synchronization** between the planning master, runtime
+places and runtime regional notes. Update the relevant files together. Editing
+only the master will not change what visitors see. Do not rerun an old import to
+generate the runtime dataset: it can restore removed places or overwrite edits.
 
-## Remaining regions imported
+## Current content and behavior to preserve
 
-All 30 exported destinations are now mapped: Yufuin 6, Beppu/Hiji 8, Kurokawa 13, Aso 3. Every position has a source URL, approximate precision and point-representation metadata. Sources include MapFan, Yahoo Maps, local tourism authorities, published property map links and Onsenpick's public map dataset (coordinates only; no photos/reviews copied). Original user export is unchanged. Aso prototype marker is preserved in data/prototype-places.json and replaced on the map by the actual crater destination. District centre pins have no implied boundary or calculated walking time.
+There are **29 places**: Yufuin 5, Beppu/Hiji 8, Kurokawa 13 and Aso 3.
+Fukuoka has a region label and route reference, but no saved destinations yet.
+Mount Yufu was deliberately removed; Mount Tsurumi is included in Beppu Ropeway.
+Fukuoka, Kumamoto and Amakusa still need destination research.
 
-A bilingual Yufuin town label is positioned near Yufuin Station (33.262617 N, 131.355092 E), west of the main POI cluster. It appears at zooms 6–16, is non-interactive and does not count as a destination. Source: https://en.wikipedia.org/wiki/Yufuin_Station .
+- Search matches Chinese, English and Japanese place names. Region suggestions
+  focus a region without creating a destination pin.
+- Region and category selections use OR within each group, AND between groups.
+  Selecting nothing in a group means no matches. List and map use the same results.
+- `q`, `regions`, `types` and `focus` are stored in the URL. Preserve other query
+  parameters and keep browser Back/Forward handling. `focus` highlights a region;
+  it is distinct from hiding places with a region filter.
+- Bold red bilingual region labels are visible at all zoom levels. They sit on
+  the region when zoomed out and move aside progressively between zooms 9 and 12.
+  Their counters mean visible places / total places in that region.
+- Region hover highlights its pins and dims others; click keeps the focus.
+  Regional notes stay open while hovered/focused, with a 1.5-second dismissal
+  grace period after leaving. **Do not restore stretched regional shaded hulls.**
+  Region extents in `areas.ts` are still used to frame the camera.
+- Place hover gives a transient preview; click keeps details open. Moving from a
+  pin into its popup should not close it. Touch users can tap. Keep one place
+  popup at a time and clear obsolete selections when filtering.
+- Only Kurokawa village and Yunotsubo street currently have approximate shaded
+  exploration footprints. They are not surveyed boundaries, routed walks or
+  calculated walking-time areas. Keep that distinction explicit.
+- Overlapping pins are detected from their 42×54-pixel screen footprints, including
+  connected groups. Up to 12 spread with lines to their real coordinates; larger
+  groups zoom first. Never modify stored coordinates to separate overlapping pins.
+- The sidebar collapses; on desktop it also resizes. Keep map resizing and mobile
+  layout working. The optional list remains useful for selecting obscured pins.
 
-## Trip overview and classification
+## Visual and writing conventions
 
-Always-visible bilingual bold red labels mark Fukuoka, Yufuin, Beppu, Kurokawa and Aso. Labels are non-interactive contextual annotations, not additional places. Fukuoka is a city-centre reference from https://facts.city.fukuoka.lg.jp/en/data/position/ . Other anchors use existing sourced place coordinates.
+Keep the interface quiet and map-focused: warm cream panels, dark green text and
+controls, red region names, terracotta POIs and blue accommodation pins. Reuse
+existing spacing, rounded panels and typography rather than introducing a second
+design system. Preserve visible keyboard focus, readable contrast and map-source
+attribution. Keep descriptive content useful to family members, without internal
+implementation details in their UI.
 
-category remains poi/accommodation. Each POI now has one poiType: natural_scenery, hot_spring, town or food_market. Original subcategories are retained. The icon mapping is centralized in src/trip-overview.ts; nature-oriented ropeways, viewpoints, lakes, grasslands and crater scenery use the mountain symbol. Bath facilities use onsen, town/district walks use village, food/shopping/markets use shop, accommodations use house and stack above POIs.
+Pins are inverted-water-drop SVGs. Accommodations stack above ordinary POIs.
+Use the existing category symbols consistently:
 
-A toggleable GeoJSON overview connects Fukuoka–Yufuin, Yufuin–Beppu (shared outward/return segment), Yufuin–Kurokawa and Kurokawa–Aso. These are straight schematic connections, not road routes. No distance, driving time or route optimization is inferred. The fit-all view includes Fukuoka while the overview is on.
+| Record | Symbol |
+| --- | --- |
+| `poi` + `natural_scenery` | Multiple mountain peaks (also lakes, waterfalls, viewpoints, volcanic scenery and scenic ropeways) |
+| `poi` + `hot_spring` | Onsen |
+| `poi` + `town` | Village/street |
+| `poi` + `food_market` | Shop/market |
+| `accommodation` | House |
 
-## Road routes replace schematic geometry
+Use Chinese and English names/descriptions, and retain Japanese names for search.
+Simplified Chinese is the default; the language choice persists in localStorage.
+The text helper falls back to English if Chinese is missing. Add both counterparts
+when content is ready; there is no automatic translation service.
 
-The current overview uses actual precomputed OSRM driving geometry from https://router.project-osrm.org, saved in public/routes/driving.geojson. Four separate legs: Fukuoka–Yufuin, Yufuin–Beppu, Yufuin–Kurokawa and Kurokawa–Daikanbo–Kusasenri. The Beppu connection is displayed once for the round trip; reverse-direction road geometry may differ. Endpoints are approximate regional references snapped to roads; snap offsets are recorded. Kusasenri's grassland centre snapped about 405m to its road access. Routes are planning references without live traffic or current closure verification. Distances/durations are stored but not displayed as live estimates. The browser loads bundled geometry, not the public route service. Solid charcoal routes have a light halo, and the expanded legend has larger text and icons.
+Descriptions should explain the attraction, why it is on our shortlist, whether
+it is optional, and a rough duration when useful. Separate planning estimates from
+verified facts. Mark historical prices as historical and include currency, unit,
+meal/tax basis and date if known. Do not imply that a quoted starting price means
+availability, a booking, or that all room types have the same facilities.
 
-Region labels use a bottom-centred anchor with a 62px lift through zoom 9. Between zooms 9 and 12 their offsets smoothly interpolate toward side positions. Yufuin and Beppu label anchors use the existing accommodation / Kannawa pin-cluster reference coordinates, so the overview labels stay near those clusters rather than the railway station or distant city centre. Route endpoints are unchanged.
+## Common edits
 
-## Filters and sidebar
+### Change a description or regional note
 
-Top-right search matches Chinese, English and Japanese place names. Region/category multi-select filters use OR within each group and AND across groups; zero selected means no matches. Search and selections round-trip through q/regions/types URL query parameters, with unknown IDs ignored and popstate supported. List/map derive from the same filtered collection, without refetching data. Fit results uses visible POIs only, independent of the road route toggle.
+1. Find the stable place `id` in `public/data/places.json` and the matching record
+   in `data/kyushu-planning.json`; edit the bilingual descriptions in both.
+2. For region summaries, update `src/region-notes.json` and the matching region's
+   `reviewedSummary` in the planning master. Earlier `notes` retain research context.
+3. Preserve sources, uncertainty, optional status and price qualifications.
+4. Check the popup and region note in both languages, including scrolling.
 
-Desktop sidebar collapses and resizes via drag handle (280–520px) or separator arrow keys; mobile uses an overlay drawer. A ResizeObserver keeps the map projection current. The optional list sorts by region and localized name; selection zooms and highlights the pin. Hover preview opens after 180ms, closes 260ms after leaving both pin and popup, and click pins it open. Touch uses tap. Only one popup opens at a time, and filtering clears obsolete selection.
+### Add a place
 
-## Region focus, walk highlights, overlapping pins
+Start from a similar existing record so relevant planning fields are retained.
+A minimal runtime POI looks like this (illustrative coordinates, not a destination):
 
-Region search suggestions (Chinese/English/Japanese aliases) focus and select a region without adding a destination pin. `focus` persists in the URL. Red labels are accessible buttons with visible/total counts: hover previews the region area, click focuses and keeps it highlighted. General areas combine manually chosen geographic envelopes with buffered saved places using a convex hull. Aso uses an approximate ellipse based on GSJ's published 25km N–S / 18km E–W caldera dimensions. These are explicitly approximate planning envelopes, not traced geological/admin boundaries.
+```json
+{
+  "id": "example-aso-viewpoint",
+  "category": "poi",
+  "poiType": "natural_scenery",
+  "regionId": "aso",
+  "name": { "zh": "示例展望点", "en": "Example viewpoint" },
+  "nameJa": null,
+  "coordinates": { "longitude": 131.0, "latitude": 32.9 },
+  "description": { "zh": "可选观景点。", "en": "An optional viewpoint." },
+  "location": { "precision": "approximate" }
+}
+```
 
-Kurokawa village core and Yunotsubo street have hand-curated approximate orientation footprints, citing official maps for context. They are NOT surveyed boundaries, not official landscape-plan areas, not routed walks and have no calculated walking times. Place hover/click shows their footprints; hiding the place hides the footprint.
+- IDs must be unique and stable. Use the existing region/category identifiers.
+- Coordinates are decimal degrees; GeoJSON arrays use **longitude, latitude**.
+  Keep `coordinates` and richer `location.longitude/latitude` fields consistent.
+- Record the actual coordinate source, what the point represents (entrance,
+  parking, area center, etc.) and approximate precision. Do not silently present a
+  mountain or lake center as a navigable entrance.
+- Add a matching planning-master record. A new region also needs filter options,
+  a label anchor, camera extent and regional notes in their respective files.
+- Put original, licensed photos under `public/images/` when photo display is added.
+  The current popup does not render the existing `images` arrays. Never copy
+  third-party listing photos/reviews merely because their URLs are available.
+- Accommodation links already work; arbitrary new metadata fields require UI/type
+  changes before they appear. Do not assume adding JSON automatically adds a card.
 
-Popup overlap controls detect connected intersections of 42×54 pixel pin footprints at the current zoom. Up to 12 pins spread around a circle with leaders to their unchanged geographic coordinates; larger groups first zoom closer. Expanded pin popups follow displayed offsets. Map movement/resizing/filter changes collapse the arrangement; list selection stays available.
+### Change map interactions or routes
 
+Keep the MapLibre worker import/`setWorkerUrl` setup intact. Remove map listeners,
+markers, popups, timers and overlays in effect cleanup. Use DOM `textContent` for
+place text; `innerHTML` is reserved for trusted local SVG artwork.
 
-## GitHub Pages deployment
+When updating routes, save precomputed road geometry in the existing GeoJSON and
+retain provider, generation date, distance/duration and road-snap metadata. The
+four current segments are Fukuoka–Yufuin, Yufuin–Beppu, Yufuin–Kurokawa and
+Kurokawa–Daikanbo–Kusasenri. These are planning references without live traffic or
+closure checks. The Beppu road is drawn once; the return direction may differ.
+Keep the light route halo, attribution and route visibility control. Do not add
+live public-routing requests on every map movement.
 
-Repository: https://github.com/Gigi123680/Trip-Planner
-Site: https://gigi123680.github.io/Trip-Planner/
+## Check changes before sharing
 
-The Pages source is GitHub Actions. Every push to `main` installs the locked npm
-dependencies, type-checks and builds the app, uploads `dist`, then deploys it to
-the `github-pages` environment. A failed build does not replace the deployed site.
-The workflow can also be started manually from Actions.
+```sh
+npm run build
+npm run preview
+```
 
-Vite uses a relative base (`./`), so generated assets and JSON loads work under
-the repository subdirectory. Pages serves the static frontend over HTTPS; React
-and MapLibre run in the visitor's browser. Map tiles still come from OpenFreeMap.
-No local PC, WSL process, database or private API is needed for this prototype.
-Shared voting is not implemented yet.
+The build runs TypeScript checks and creates `dist/`; open the preview URL printed
+by Vite. There is no automated test suite configured. For content-only changes,
+check the edited popups and notes. For interaction/layout changes, also check:
+
+- Chinese/English switching, long text and links;
+- combined search/filters, zero results, URL reload and region focus;
+- hover-to-popup movement, click-to-pin, touch/keyboard access;
+- overlapping-pin spreading and collapse after moving/filtering;
+- sidebar collapse/resize, narrow screens, road and walk overlays.
+
+Do not commit `node_modules`, `dist`, `.node-bin`, credentials or build caches.
+For new assets/fetches use `import.meta.env.BASE_URL` or bundler-managed imports;
+root-absolute `/data/...` paths break under `/Trip-Planner/`.
+
+## Commit and deploy
+
+A fresh clone names its remote `origin`; the owner's original checkout names it
+`upstream`. Use `git remote -v` to check yours. Work in a small branch and open a
+pull request when review is useful:
+
+```sh
+git switch -c improve-place-details
+# Edit files and verify locally.
+git add <changed-files>
+git commit -m "Clarify place descriptions"
+git push -u origin improve-place-details
+```
+
+Publishing happens when changes reach `main` (by merging a PR or an authorized
+direct push). It is automatic and public: do not push unfinished or private content
+to `main`. No new hosting command is needed for each update.
+
+The workflow installs locked dependencies, runs `npm run build`, uploads `dist`,
+then deploys it to the `github-pages` environment. A failed build leaves the
+previous deployment live. Check the repository's **Actions** tab if publishing
+fails. The workflow also supports **Run workflow** for a manual deployment.
+The repository Pages setting must remain **GitHub Actions**.
+
+GitHub Pages serves the generated files over HTTPS; React and MapLibre execute in
+the visitor's browser. The repository is source code, not the website URL. Query
+filters work on Pages without a server router. Do not introduce history-based
+deep paths without planning for Pages' lack of an application fallback.
+
+## Future direction
+
+Keep changes incremental. Potential next steps are local preference voting with
+one batch review submission, photos, itinerary/day filters, and later editing with
+multiple users. A future REST API and SQLite service may run on a dedicated Linux
+machine. Preserve the data-loader boundary and stable IDs so that transition does
+not require redesigning the map. Self-hosted map tiles are a later option; plan
+tile data, fonts, sprites, storage and updates together. Do not add backend or
+authentication dependencies to the current read-only prototype without a concrete
+need. External accommodation pages may block embedding, so ordinary links remain
+the reliable fallback.
